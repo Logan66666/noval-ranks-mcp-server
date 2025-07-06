@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>图片加载测试工具</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #333;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 10px;
+    }
+    .control-panel {
+      margin-bottom: 20px;
+      padding: 15px;
+      background: #f9f9f9;
+      border-radius: 5px;
+    }
+    button {
+      padding: 8px 15px;
+      margin-right: 10px;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #45a049;
+    }
+    button:disabled {
+      background: #cccccc;
+      cursor: not-allowed;
+    }
+    .status {
+      margin-top: 15px;
+      padding: 10px;
+      background: #e7f3fe;
+      border-left: 4px solid #2196F3;
+    }
+    .progress-bar {
+      width: 100%;
+      background-color: #e0e0e0;
+      border-radius: 4px;
+      margin: 10px 0;
+    }
+    .progress {
+      height: 20px;
+      background-color: #4CAF50;
+      border-radius: 4px;
+      text-align: center;
+      color: white;
+      line-height: 20px;
+    }
+    .summary {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .summary-box {
+      flex: 1;
+      margin: 0 10px;
+      padding: 15px;
+      background: #f9f9f9;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .summary-box.success {
+      background-color: #dff0d8;
+      border-left: 4px solid #3c763d;
+    }
+    .summary-box.failed {
+      background-color: #f2dede;
+      border-left: 4px solid #a94442;
+    }
+    .summary-box h3 {
+      margin-top: 0;
+    }
+    .results {
+      margin-top: 20px;
+    }
+    .table-container {
+      max-height: 400px;
+      overflow-y: auto;
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #f2f2f2;
+      position: sticky;
+      top: 0;
+    }
+    tr:hover {
+      background-color: #f5f5f5;
+    }
+    .success-row {
+      background-color: #dff0d8;
+    }
+    .failed-row {
+      background-color: #f2dede;
+    }
+    .thumbnail {
+      width: 48px;
+      height: 48px;
+      object-fit: contain;
+    }
+    .result-icon {
+      font-weight: bold;
+    }
+    .success-icon {
+      color: green;
+    }
+    .failed-icon {
+      color: red;
+    }
+    .tabs {
+      display: flex;
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 20px;
+    }
+    .tab {
+      padding: 10px 20px;
+      cursor: pointer;
+      border: 1px solid transparent;
+      border-bottom: none;
+      margin-right: 5px;
+      border-radius: 5px 5px 0 0;
+    }
+    .tab.active {
+      background: white;
+      border-color: #ccc;
+      border-bottom: 1px solid white;
+      margin-bottom: -1px;
+    }
+    .tab-content {
+      display: none;
+    }
+    .tab-content.active {
+      display: block;
+    }
+    .chart-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300px;
+      margin: 20px 0;
+    }
+    .pie-chart {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: conic-gradient(#4CAF50 var(--success-percentage), #f44336 var(--success-percentage));
+    }
+    .pie-chart-inner {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      background: white;
+      border-radius: 50%;
+      top: 25px;
+      left: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .debug-log {
+      margin-top: 20px;
+      padding: 10px;
+      background: #f5f5f5;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      height: 200px;
+      overflow-y: auto;
+      font-family: monospace;
+      white-space: pre-wrap;
+    }
+    .log-entry {
+      margin: 5px 0;
+      padding: 2px 0;
+      border-bottom: 1px solid #eee;
+    }
+    .batch-size-control {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .batch-size-control label {
+      margin-right: 10px;
+    }
+    .batch-size-control input {
+      width: 60px;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>图片加载测试工具</h1>
+    
+    <div class="control-panel">
+      <div class="batch-size-control">
+        <label for="batchSize">批量大小：</label>
+        <input type="number" id="batchSize" value="10" min="1" max="50">
+      </div>
+      <div class="batch-size-control">
+        <label for="delayMs">延迟(毫秒)：</label>
+        <input type="number" id="delayMs" value="200" min="0" max="1000">
+      </div>
+      <button id="startTest" onclick="startTest()">开始全部测试</button>
+      <button id="testFailed" onclick="testFailedImages()" disabled>测试失败的图片</button>
+      <button id="clearResults" onclick="clearResults()" disabled>清除结果</button>
+    </div>
+
+    <div class="status" id="statusBar">
+      准备就绪。点击"开始全部测试"按钮开始测试图片加载情况。
+    </div>
+    
+    <div class="progress-bar">
+      <div class="progress" id="progressBar" style="width: 0%;">0%</div>
+    </div>
+    
+    <div class="tabs">
+      <div class="tab active" data-tab="summary">汇总</div>
+      <div class="tab" data-tab="details">详细结果</div>
+      <div class="tab" data-tab="visualization">可视化</div>
+      <div class="tab" data-tab="debug">调试日志</div>
+    </div>
+
+    <div class="tab-content active" id="summary">
+      <div class="summary">
+        <div class="summary-box">
+          <h3>总图片数</h3>
+          <div id="totalCount">0</div>
+        </div>
+        <div class="summary-box success">
+          <h3>加载成功</h3>
+          <div id="successCount">0</div>
+        </div>
+        <div class="summary-box failed">
+          <h3>加载失败</h3>
+          <div id="failedCount">0</div>
+        </div>
+        <div class="summary-box">
+          <h3>成功率</h3>
+          <div id="successRate">0%</div>
+        </div>
+        <div class="summary-box">
+          <h3>平均加载时间</h3>
+          <div id="avgLoadTime">0ms</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="tab-content" id="details">
+      <div class="table-container">
+        <table id="resultsTable">
+          <thead>
+            <tr>
+              <th>状态</th>
+              <th>预览</th>
+              <th>文件名</th>
+              <th>Unicode</th>
+              <th>大小</th>
+              <th>加载时间</th>
+              <th>错误信息</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- 结果将在这里动态添加 -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+    <div class="tab-content" id="visualization">
+      <div class="chart-container">
+        <div class="pie-chart" id="pieChart">
+          <div class="pie-chart-inner">
+            <div id="pieChartPercent">0%</div>
+            <div>成功率</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="tab-content" id="debug">
+      <div class="debug-log" id="debugLog">
+        <!-- 调试日志将在这里动态添加 -->
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // 全局变量
+    let images = [];
+    let testResults = [];
+    let failedImages = [];
+    let currentBatch = 0;
+    let batchSize = 10;
+    let delayMs = 200;
+    let totalProcessed = 0;
+    let totalSuccess = 0;
+    let totalFailed = 0;
+    let totalLoadTime = 0;
+    let isTesting = false;
+
+    // 初始化
+    document.addEventListener('DOMContentLoaded', () => {
+      // 切换标签页
+      const tabs = document.querySelectorAll('.tab');
+      tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+          document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+          tab.classList.add('active');
+          document.getElementById(tab.dataset.tab).classList.add('active');
+        });
+      });
+      
+      // 加载图片列表
+      fetchImagesList();
+    });
+
+    // 获取图片列表
+    function fetchImagesList() {
+      updateStatus("正在加载图片列表...");
+      fetch('/api/images')
+        .then(response => {
+          if (!response.ok) {
+            throw new Error(`HTTP error ${response.status}`);
+          }
+          return response.json();
+        })
+        .then(data => {
+          images = data.images;
+          updateStatus(`加载了 ${images.length} 张图片信息。准备就绪。`);
+          document.getElementById('totalCount').textContent = images.length;
+          logDebug(`加载了 ${images.length} 张图片信息`);
+        })
+        .catch(error => {
+          updateStatus(`加载图片列表失败: ${error.message}`, true);
+          logDebug(`加载图片列表失败: ${error.message}`, true);
+        });
+    }
+
+    // 开始测试
+    function startTest() {
+      if (isTesting) return;
+      
+      // 获取批量大小和延迟
+      batchSize = parseInt(document.getElementById('batchSize').value) || 10;
+      delayMs = parseInt(document.getElementById('delayMs').value) || 200;
+      
+      // 重置状态
+      testResults = [];
+      failedImages = [];
+      currentBatch = 0;
+      totalProcessed = 0;
+      totalSuccess = 0;
+      totalFailed = 0;
+      totalLoadTime = 0;
+      
+      // 更新UI
+      document.getElementById('startTest').disabled = true;
+      document.getElementById('testFailed').disabled = true;
+      document.getElementById('clearResults').disabled = true;
+      document.getElementById('resultsTable').querySelector('tbody').innerHTML = '';
+      updateProgress(0);
+      updateSummary();
+      
+      isTesting = true;
+      updateStatus(`开始测试 ${images.length} 张图片...`);
+      logDebug(`开始测试，批量大小: ${batchSize}, 延迟: ${delayMs}ms`);
+      
+      // 开始批量测试
+      processBatch();
+    }
+
+    // 处理一批图片
+    function processBatch() {
+      const startIdx = currentBatch * batchSize;
+      const endIdx = Math.min(startIdx + batchSize, images.length);
+      
+      if (startIdx >= images.length) {
+        finishTest();
+        return;
+      }
+      
+      updateStatus(`测试中... (${startIdx+1}-${endIdx}/${images.length})`);
+      logDebug(`处理批次 ${currentBatch+1}: 图片 ${startIdx+1}-${endIdx}/${images.length}`);
+      
+      const batch = images.slice(startIdx, endIdx);
+      let completed = 0;
+      
+      batch.forEach(imageInfo => {
+        testImage(imageInfo, (result) => {
+          testResults.push(result);
+          
+          if (result.success) {
+            totalSuccess++;
+          } else {
+            totalFailed++;
+            failedImages.push(imageInfo);
+          }
+          
+          totalLoadTime += result.loadTime;
+          totalProcessed++;
+          
+          // 更新进度
+          updateProgress((totalProcessed / images.length) * 100);
+          updateSummary();
+          addResultRow(result);
+          
+          // 检查批次是否完成
+          completed++;
+          if (completed === batch.length) {
+            currentBatch++;
+            // 延迟处理下一批
+            setTimeout(processBatch, delayMs);
+          }
+        });
+      });
+    }
+
+    // 测试单张图片
+    function testImage(imageInfo, callback) {
+      const startTime = performance.now();
+      const img = new Image();
+      const result = {
+        imageInfo: imageInfo,
+        filename: imageInfo.filename,
+        unicode: imageInfo.unicode,
+        size: imageInfo.size,
+        success: false,
+        loadTime: 0,
+        error: null,
+        testedAt: new Date().toISOString()
+      };
+      
+      img.onload = function() {
+        const endTime = performance.now();
+        result.loadTime = Math.round(endTime - startTime);
+        result.success = true;
+        logDebug(`图片加载成功: ${imageInfo.filename}, 用时: ${result.loadTime}ms`);
+        callback(result);
+      };
+      
+      img.onerror = function(e) {
+        const endTime = performance.now();
+        result.loadTime = Math.round(endTime - startTime);
+        result.success = false;
+        result.error = "图片加载失败";
+        logDebug(`图片加载失败: ${imageInfo.filename}`, true);
+        callback(result);
+      };
+      
+      // 添加时间戳防止缓存
+      img.src = imageInfo.path + '?t=' + new Date().getTime();
+    }
+
+    // 测试失败的图片
+    function testFailedImages() {
+      if (isTesting || failedImages.length === 0) return;
+      
+      isTesting = true;
+      updateStatus(`开始重新测试 ${failedImages.length} 张失败的图片...`);
+      logDebug(`开始重新测试 ${failedImages.length} 张失败的图片`);
+      
+      document.getElementById('startTest').disabled = true;
+      document.getElementById('testFailed').disabled = true;
+      document.getElementById('clearResults').disabled = true;
+      
+      let retested = 0;
+      let retestSuccess = 0;
+      
+      failedImages.forEach(imageInfo => {
+        testImage(imageInfo, (result) => {
+          // 查找并更新结果
+          const index = testResults.findIndex(r => r.filename === result.filename);
+          if (index !== -1) {
+            testResults[index] = result;
+            
+            // 更新表格行
+            const rows = document.getElementById('resultsTable').querySelectorAll('tbody tr');
+            for (let i = 0; i < rows.length; i++) {
+              if (rows[i].dataset.filename === result.filename) {
+                rows[i].parentNode.removeChild(rows[i]);
+                addResultRow(result);
+                break;
+              }
+            }
+            
+            // 更新统计
+            if (result.success) {
+              totalSuccess++;
+              totalFailed--;
+              retestSuccess++;
+              failedImages = failedImages.filter(img => img.filename !== imageInfo.filename);
+            }
+          }
+          
+          retested++;
+          updateSummary();
+          
+          if (retested === failedImages.length) {
+            updateStatus(`重新测试完成。${retestSuccess} 张图片成功加载，${failedImages.length} 张仍然失败。`);
+            logDebug(`重新测试完成。${retestSuccess} 张成功，${failedImages.length} 张失败`);
+            isTesting = false;
+            document.getElementById('startTest').disabled = false;
+            document.getElementById('testFailed').disabled = failedImages.length === 0;
+            document.getElementById('clearResults').disabled = false;
+          }
+        });
+      });
+    }
+
+    // 完成测试
+    function finishTest() {
+      isTesting = false;
+      document.getElementById('startTest').disabled = false;
+      document.getElementById('testFailed').disabled = failedImages.length === 0;
+      document.getElementById('clearResults').disabled = false;
+      
+      updateStatus(`测试完成。共测试 ${images.length} 张图片，${totalSuccess} 张成功，${totalFailed} 张失败。`);
+      logDebug(`测试完成。${totalSuccess} 张成功，${totalFailed} 张失败，成功率: ${(totalSuccess / images.length * 100).toFixed(2)}%`);
+    }
+
+    // 清除结果
+    function clearResults() {
+      testResults = [];
+      failedImages = [];
+      document.getElementById('resultsTable').querySelector('tbody').innerHTML = '';
+      updateProgress(0);
+      updateStatus('结果已清除。');
+      document.getElementById('testFailed').disabled = true;
+      document.getElementById('clearResults').disabled = true;
+      totalProcessed = 0;
+      totalSuccess = 0;
+      totalFailed = 0;
+      totalLoadTime = 0;
+      updateSummary();
+      logDebug('结果已清除');
+    }
+
+    // 更新状态栏
+    function updateStatus(message, isError = false) {
+      const statusBar = document.getElementById('statusBar');
+      statusBar.textContent = message;
+      statusBar.style.background = isError ? '#ffebee' : '#e7f3fe';
+      statusBar.style.borderLeftColor = isError ? '#f44336' : '#2196F3';
+    }
+
+    // 更新进度条
+    function updateProgress(percentage) {
+      const progressBar = document.getElementById('progressBar');
+      percentage = Math.min(100, Math.max(0, percentage));
+      progressBar.style.width = `${percentage}%`;
+      progressBar.textContent = `${percentage.toFixed(1)}%`;
+    }
+
+    // 更新汇总信息
+    function updateSummary() {
+      document.getElementById('successCount').textContent = totalSuccess;
+      document.getElementById('failedCount').textContent = totalFailed;
+      
+      const successRate = totalProcessed > 0 ? (totalSuccess / totalProcessed * 100) : 0;
+      document.getElementById('successRate').textContent = `${successRate.toFixed(1)}%`;
+      
+      const avgLoadTime = totalSuccess > 0 ? (totalLoadTime / totalSuccess) : 0;
+      document.getElementById('avgLoadTime').textContent = `${avgLoadTime.toFixed(1)}ms`;
+      
+      // 更新饼图
+      const pieChart = document.getElementById('pieChart');
+      pieChart.style.setProperty('--success-percentage', `${successRate}%`);
+      document.getElementById('pieChartPercent').textContent = `${successRate.toFixed(1)}%`;
+    }
+
+    // 添加结果行
+    function addResultRow(result) {
+      const tbody = document.getElementById('resultsTable').querySelector('tbody');
+      const row = document.createElement('tr');
+      row.dataset.filename = result.filename;
+      row.className = result.success ? 'success-row' : 'failed-row';
+      
+      row.innerHTML = `
+        <td><span class="result-icon ${result.success ? 'success-icon' : 'failed-icon'}">${result.success ? '✓' : '✗'}</span></td>
+        <td><img src="${result.imageInfo.path}" class="thumbnail" alt="${result.filename}" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2248%22 height=%2248%22><rect width=%2248%22 height=%2248%22 fill=%22%23f2dede%22/><text x=%2250%%22 y=%2250%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>✗</text></svg>'"></td>
+        <td>${result.filename}</td>
+        <td>${result.unicode}</td>
+        <td>${formatSize(result.size)}</td>
+        <td>${result.loadTime} ms</td>
+        <td>${result.error || ''}</td>
+      `;
+      
+      tbody.appendChild(row);
+    }
+
+    // 格式化文件大小
+    function formatSize(bytes) {
+      if (bytes < 1024) {
+        return bytes + ' B';
+      } else if (bytes < 1024 * 1024) {
+        return (bytes / 1024).toFixed(1) + ' KB';
+      } else {
+        return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
+      }
+    }
+
+    // 记录调试日志
+    function logDebug(message, isError = false) {
+      const log = document.getElementById('debugLog');
+      const entry = document.createElement('div');
+      entry.className = 'log-entry';
+      entry.style.color = isError ? 'red' : 'black';
+      entry.textContent = `[${new Date().toISOString().substr(11, 8)}] ${message}`;
+      log.appendChild(entry);
+      log.scrollTop = log.scrollHeight;
+      console.log(message);
+    }
+  </script>
+</body>
+</html> 

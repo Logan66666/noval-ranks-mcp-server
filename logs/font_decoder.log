@@ -1,0 +1,518 @@
+2025-07-01 09:22:17,389 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 09:22:17,390 - FontDecoder - INFO - 未找到字体映射缓存文件
+2025-07-01 09:22:17,390 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-01 09:22:17,391 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.woff2
+2025-07-01 09:22:17,391 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.woff2
+2025-07-01 09:22:17,563 - FontDecoder - INFO - 字体下载成功: 46.5 KB, 耗时 0.17秒
+2025-07-01 09:22:17,563 - FontDecoder - INFO - 开始解析字体映射
+2025-07-01 09:22:17,633 - FontDecoder - INFO - 解析完成! 发现 0 个可映射字符, 耗时 0.07秒
+2025-07-01 09:22:17,633 - FontDecoder - ERROR - 获取字体映射失败
+2025-07-01 09:30:18,421 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 09:30:18,422 - FontDecoder - INFO - 未找到字体映射缓存文件
+2025-07-01 09:30:18,422 - FontDecoder - INFO - 开始解析字体映射
+2025-07-01 09:30:18,454 - FontDecoder - INFO - 解析完成! 发现 0 个可映射字符, 耗时 0.03秒
+2025-07-01 09:30:18,454 - FontDecoder - WARNING - 未能解析出任何映射，请检查字体文件是否为页面实际加密字体
+2025-07-01 09:30:18,455 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 09:30:18,455 - FontDecoder - INFO - 未找到字体映射缓存文件
+2025-07-01 09:30:18,455 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-01 09:30:18,456 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.woff2
+2025-07-01 09:30:18,456 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.woff2
+2025-07-01 09:30:18,678 - FontDecoder - INFO - 字体下载成功: 46.5 KB, 耗时 0.22秒
+2025-07-01 09:30:18,679 - FontDecoder - INFO - 开始解析字体映射
+2025-07-01 09:30:18,681 - FontDecoder - INFO - 解析完成! 发现 0 个可映射字符, 耗时 0.00秒
+2025-07-01 09:30:18,681 - FontDecoder - WARNING - 未能解析出任何映射，请检查字体文件是否为页面实际加密字体
+2025-07-01 09:30:18,681 - FontDecoder - ERROR - 获取字体映射失败
+2025-07-01 09:30:18,681 - FontDecoder - WARNING - 无法解密文本：没有字体映射或为空输入
+2025-07-01 09:36:05,521 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 09:36:05,522 - FontDecoder - INFO - 未找到字体映射缓存文件
+2025-07-01 09:36:05,522 - FontDecoder - INFO - 开始解析字体映射
+2025-07-01 09:36:05,567 - FontDecoder - INFO - 解析完成! 发现 0 个可映射字符, 耗时 0.04秒
+2025-07-01 09:36:05,568 - FontDecoder - WARNING - 未能解析出任何映射，请检查字体文件是否为页面实际加密字体
+2025-07-01 09:36:05,568 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 09:36:05,569 - FontDecoder - INFO - 未找到字体映射缓存文件
+2025-07-01 09:36:05,569 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-01 09:36:05,570 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.woff2
+2025-07-01 09:36:05,570 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.woff2
+2025-07-01 09:36:05,764 - FontDecoder - INFO - 字体下载成功: 46.5 KB, 耗时 0.19秒
+2025-07-01 09:36:05,765 - FontDecoder - INFO - 开始解析字体映射
+2025-07-01 09:36:05,768 - FontDecoder - INFO - 解析完成! 发现 0 个可映射字符, 耗时 0.00秒
+2025-07-01 09:36:05,769 - FontDecoder - WARNING - 未能解析出任何映射，请检查字体文件是否为页面实际加密字体
+2025-07-01 09:36:05,769 - FontDecoder - ERROR - 获取字体映射失败
+2025-07-01 09:36:05,769 - FontDecoder - WARNING - 无法解密文本：没有字体映射或为空输入
+2025-07-01 09:43:52,472 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 09:43:52,472 - FontDecoder - INFO - 未找到字体映射缓存文件
+2025-07-01 09:43:52,473 - FontDecoder - INFO - 开始解析字体映射
+2025-07-01 09:43:52,504 - FontDecoder - INFO - 解析完成! 发现 0 个可映射字符, 耗时 0.03秒
+2025-07-01 09:43:52,504 - FontDecoder - WARNING - 未能解析出任何映射，请检查字体文件是否为页面实际加密字体
+2025-07-01 09:43:52,505 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 09:43:52,505 - FontDecoder - INFO - 未找到字体映射缓存文件
+2025-07-01 09:43:52,506 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-01 09:43:52,506 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.woff2
+2025-07-01 09:43:52,506 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.woff2
+2025-07-01 09:43:52,700 - FontDecoder - INFO - 字体下载成功: 46.5 KB, 耗时 0.19秒
+2025-07-01 09:43:52,700 - FontDecoder - INFO - 开始解析字体映射
+2025-07-01 09:43:52,702 - FontDecoder - INFO - 解析完成! 发现 0 个可映射字符, 耗时 0.00秒
+2025-07-01 09:43:52,703 - FontDecoder - WARNING - 未能解析出任何映射，请检查字体文件是否为页面实际加密字体
+2025-07-01 09:43:52,703 - FontDecoder - ERROR - 获取字体映射失败
+2025-07-01 09:43:52,703 - FontDecoder - WARNING - 无法解密文本：没有字体映射或为空输入
+2025-07-01 09:53:20,326 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 09:53:20,327 - FontDecoder - INFO - 未找到字体映射缓存文件
+2025-07-01 09:53:20,327 - FontDecoder - INFO - 开始解析字体映射
+2025-07-01 09:53:20,356 - FontDecoder - INFO - 解析完成! 发现 0 个可映射字符, 耗时 0.03秒
+2025-07-01 09:53:20,357 - FontDecoder - WARNING - 未能解析出任何映射，请检查字体文件是否为页面实际加密字体
+2025-07-01 09:53:20,357 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 09:53:20,358 - FontDecoder - INFO - 未找到字体映射缓存文件
+2025-07-01 09:53:20,358 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-01 09:53:20,358 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.woff2
+2025-07-01 09:53:20,359 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.woff2
+2025-07-01 09:53:20,528 - FontDecoder - INFO - 字体下载成功: 46.5 KB, 耗时 0.17秒
+2025-07-01 09:53:20,529 - FontDecoder - INFO - 开始解析字体映射
+2025-07-01 09:53:20,540 - FontDecoder - INFO - 解析完成! 发现 0 个可映射字符, 耗时 0.01秒
+2025-07-01 09:53:20,540 - FontDecoder - WARNING - 未能解析出任何映射，请检查字体文件是否为页面实际加密字体
+2025-07-01 09:53:20,540 - FontDecoder - ERROR - 获取字体映射失败
+2025-07-01 09:53:20,540 - FontDecoder - WARNING - 无法解密文本：没有字体映射或为空输入
+2025-07-01 12:16:34,157 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 12:16:34,157 - FontDecoder - INFO - 未找到字体映射缓存文件
+2025-07-01 12:16:34,157 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-01 12:16:34,158 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-01 12:16:34,158 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-01 12:16:34,344 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.18秒
+2025-07-01 12:16:34,735 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-07-01 12:16:47,742 - FontDecoder - INFO - 已加载OCR映射表: cache/mappings\599ab49090584e23_mapping.json，共362项
+2025-07-01 12:16:47,743 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 12:16:47,743 - FontDecoder - INFO - 未找到字体映射缓存文件
+2025-07-01 12:16:47,743 - FontDecoder - INFO - 从本地加载字体文件: cache\fonts\599ab49090584e23.otf
+2025-07-01 12:16:47,743 - FontDecoder - INFO - 开始解析字体映射
+2025-07-01 12:16:47,744 - FontDecoder - INFO - 解析完成! 发现 362 个可映射字符, 耗时 0.00秒
+2025-07-01 12:16:47,745 - FontDecoder - INFO - 字体映射已保存到缓存: cache/fonts\font_mapping_cache.json
+2025-07-01 12:16:47,746 - FontDecoder - INFO - 从本地字体文件更新映射成功!
+2025-07-01 12:20:11,915 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 12:20:11,916 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-01 12:20:11,916 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-01 12:20:11,916 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-01 12:20:11,916 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-01 12:20:12,099 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.18秒
+2025-07-01 12:20:12,101 - FontDecoder - INFO - 已加载OCR映射表: cache/mappings\599ab49090584e23_mapping.json，共362项
+2025-07-01 12:20:12,102 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 12:20:12,102 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-01 12:20:12,102 - FontDecoder - INFO - 从本地加载字体文件: cache\fonts\599ab49090584e23.otf
+2025-07-01 12:20:12,102 - FontDecoder - INFO - 开始解析字体映射
+2025-07-01 12:20:12,131 - FontDecoder - INFO - 解析完成! 发现 362 个可映射字符, 耗时 0.03秒
+2025-07-01 12:20:12,133 - FontDecoder - INFO - 字体映射已保存到缓存: cache/fonts\font_mapping_cache.json
+2025-07-01 12:20:12,133 - FontDecoder - INFO - 从本地字体文件更新映射成功!
+2025-07-01 12:25:47,638 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 12:25:47,639 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-01 12:25:47,639 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-01 12:25:47,639 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-01 12:25:47,639 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-01 12:25:47,836 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.19秒
+2025-07-01 12:25:47,837 - FontDecoder - INFO - 已加载OCR映射表: cache/mappings\599ab49090584e23_mapping.json，共362项
+2025-07-01 12:25:47,838 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 12:25:47,838 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-01 12:25:47,838 - FontDecoder - INFO - 从本地加载字体文件: cache\fonts\599ab49090584e23.otf
+2025-07-01 12:25:47,839 - FontDecoder - INFO - 开始解析字体映射
+2025-07-01 12:25:47,867 - FontDecoder - INFO - 解析完成! 发现 362 个可映射字符, 耗时 0.03秒
+2025-07-01 12:25:47,868 - FontDecoder - INFO - 字体映射已保存到缓存: cache/fonts\font_mapping_cache.json
+2025-07-01 12:25:47,868 - FontDecoder - INFO - 从本地字体文件更新映射成功!
+2025-07-01 12:32:46,375 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 12:32:46,376 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-01 12:32:46,376 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-01 12:32:46,377 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-01 12:32:46,377 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-01 12:32:46,559 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.18秒
+2025-07-01 12:32:46,561 - FontDecoder - INFO - 已加载OCR映射表: cache/mappings\599ab49090584e23_mapping.json，共362项
+2025-07-01 12:32:46,561 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 12:32:46,561 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-01 12:32:46,561 - FontDecoder - INFO - 从本地加载字体文件: cache\fonts\599ab49090584e23.otf
+2025-07-01 12:32:46,562 - FontDecoder - INFO - 开始解析字体映射
+2025-07-01 12:32:46,591 - FontDecoder - INFO - 解析完成! 发现 362 个可映射字符, 耗时 0.03秒
+2025-07-01 12:32:46,592 - FontDecoder - INFO - 字体映射已保存到缓存: cache/fonts\font_mapping_cache.json
+2025-07-01 12:32:46,592 - FontDecoder - INFO - 从本地字体文件更新映射成功!
+2025-07-01 13:04:01,140 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 13:04:01,141 - FontDecoder - INFO - 未找到字体映射缓存文件
+2025-07-01 13:04:01,141 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-01 13:04:01,141 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-01 13:04:01,141 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-01 13:04:01,367 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.22秒
+2025-07-01 13:04:01,782 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-07-01 13:04:15,237 - FontDecoder - INFO - 已加载OCR映射表: cache/mappings\599ab49090584e23_mapping.json，共362项
+2025-07-01 13:04:15,238 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 13:04:15,238 - FontDecoder - INFO - 未找到字体映射缓存文件
+2025-07-01 13:04:15,238 - FontDecoder - INFO - 从本地加载字体文件: cache\fonts\599ab49090584e23.otf
+2025-07-01 13:04:15,239 - FontDecoder - INFO - 开始解析字体映射
+2025-07-01 13:04:15,240 - FontDecoder - INFO - 解析完成! 发现 362 个可映射字符, 耗时 0.00秒
+2025-07-01 13:04:15,241 - FontDecoder - INFO - 字体映射已保存到缓存: cache/fonts\font_mapping_cache.json
+2025-07-01 13:04:15,241 - FontDecoder - INFO - 从本地字体文件更新映射成功!
+2025-07-01 20:32:14,420 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 20:32:14,422 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-01 20:32:14,423 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-01 20:32:14,423 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-01 20:32:14,423 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-01 20:32:14,649 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.23秒
+2025-07-01 20:32:14,651 - FontDecoder - INFO - 已加载OCR映射表: cache/mappings\599ab49090584e23_mapping.json，共362项
+2025-07-01 20:32:14,651 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 20:32:14,651 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-01 20:32:14,652 - FontDecoder - INFO - 从本地加载字体文件: cache\fonts\599ab49090584e23.otf
+2025-07-01 20:32:14,652 - FontDecoder - INFO - 开始解析字体映射
+2025-07-01 20:32:14,714 - FontDecoder - INFO - 解析完成! 发现 362 个可映射字符, 耗时 0.06秒
+2025-07-01 20:32:14,715 - FontDecoder - INFO - 字体映射已保存到缓存: cache/fonts\font_mapping_cache.json
+2025-07-01 20:32:14,715 - FontDecoder - INFO - 从本地字体文件更新映射成功!
+2025-07-01 20:37:01,484 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 20:37:01,485 - FontDecoder - INFO - 未找到字体映射缓存文件
+2025-07-01 20:37:01,485 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-01 20:37:01,486 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-01 20:37:01,486 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-01 20:37:01,759 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.27秒
+2025-07-01 20:37:02,194 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-07-01 20:37:15,017 - FontDecoder - INFO - 已加载OCR映射表: cache/mappings\599ab49090584e23_mapping.json，共362项
+2025-07-01 20:37:15,017 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 20:37:15,018 - FontDecoder - INFO - 未找到字体映射缓存文件
+2025-07-01 20:37:15,018 - FontDecoder - INFO - 从本地加载字体文件: cache\fonts\599ab49090584e23.otf
+2025-07-01 20:37:15,018 - FontDecoder - INFO - 开始解析字体映射
+2025-07-01 20:37:15,019 - FontDecoder - INFO - 解析完成! 发现 362 个可映射字符, 耗时 0.00秒
+2025-07-01 20:37:15,020 - FontDecoder - INFO - 字体映射已保存到缓存: cache/fonts\font_mapping_cache.json
+2025-07-01 20:37:15,020 - FontDecoder - INFO - 从本地字体文件更新映射成功!
+2025-07-01 20:47:28,591 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-01 20:47:28,591 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-01 20:52:47,234 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-01 20:52:47,235 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-01 20:53:06,146 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 20:53:06,147 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-01 20:53:06,147 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-01 20:53:06,148 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-01 20:53:06,148 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-01 20:53:06,359 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.21秒
+2025-07-01 20:53:06,360 - FontDecoder - INFO - 已加载OCR映射表: cache/mappings\599ab49090584e23_mapping.json，共362项
+2025-07-01 20:53:06,361 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 20:53:06,361 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-01 20:53:06,361 - FontDecoder - INFO - 从本地加载字体文件: cache\fonts\599ab49090584e23.otf
+2025-07-01 20:53:06,362 - FontDecoder - INFO - 开始解析字体映射
+2025-07-01 20:53:06,391 - FontDecoder - INFO - 解析完成! 发现 362 个可映射字符, 耗时 0.03秒
+2025-07-01 20:53:06,393 - FontDecoder - INFO - 字体映射已保存到缓存: cache/fonts\font_mapping_cache.json
+2025-07-01 20:53:06,393 - FontDecoder - INFO - 从本地字体文件更新映射成功!
+2025-07-01 20:53:26,158 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-01 20:53:26,158 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-01 20:53:45,341 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-01 20:53:45,349 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-01 20:53:45,350 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-01 20:53:45,350 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-01 20:53:45,350 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-01 20:53:45,534 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.18秒
+2025-07-01 20:57:12,920 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-07-01 20:57:12,923 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-07-02 14:41:10,023 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 14:41:10,023 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 14:42:25,394 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 14:42:25,401 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 14:42:25,402 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-02 14:42:25,402 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 14:42:25,403 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 14:42:25,681 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.28秒
+2025-07-02 14:46:06,585 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-07-02 14:46:06,585 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-07-02 15:01:29,115 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 15:01:29,115 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 15:01:49,394 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 15:01:49,395 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 15:01:49,395 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-02 15:01:49,396 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 15:01:49,396 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 15:01:49,568 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.17秒
+2025-07-02 15:01:49,570 - FontDecoder - INFO - 已加载OCR映射表: cache/mappings\599ab49090584e23_mapping.json，共362项
+2025-07-02 15:01:49,571 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 15:01:49,571 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 15:01:49,572 - FontDecoder - INFO - 从本地加载字体文件: cache\fonts\599ab49090584e23.otf
+2025-07-02 15:01:49,572 - FontDecoder - INFO - 开始解析字体映射
+2025-07-02 15:01:49,601 - FontDecoder - INFO - 解析完成! 发现 362 个可映射字符, 耗时 0.03秒
+2025-07-02 15:01:49,602 - FontDecoder - INFO - 字体映射已保存到缓存: cache/fonts\font_mapping_cache.json
+2025-07-02 15:01:49,603 - FontDecoder - INFO - 从本地字体文件更新映射成功!
+2025-07-02 15:39:01,370 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 15:39:01,370 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 15:39:21,278 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 15:39:21,279 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 15:39:21,279 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-02 15:39:21,279 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 15:39:21,279 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 15:39:21,515 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.24秒
+2025-07-02 15:42:38,877 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-07-02 15:42:38,879 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-07-02 16:38:50,536 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 16:38:50,537 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 16:40:15,168 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 16:40:15,169 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 16:41:28,512 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 16:41:28,513 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 16:41:28,514 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-02 16:41:28,514 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 16:41:28,514 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 16:41:29,034 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.52秒
+2025-07-02 16:44:56,221 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-07-02 16:44:56,223 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-07-02 16:49:15,891 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 16:49:15,891 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 16:49:36,003 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 16:49:36,004 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 16:49:36,004 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-02 16:49:36,005 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 16:49:36,005 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 16:49:36,185 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.18秒
+2025-07-02 16:50:00,352 - FontDecoder - INFO - 已加载OCR映射表: cache/mappings\599ab49090584e23_mapping.json，共362项
+2025-07-02 16:50:00,354 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 16:50:00,355 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 16:50:00,356 - FontDecoder - INFO - 从本地加载字体文件: cache\fonts\599ab49090584e23.otf
+2025-07-02 16:50:00,356 - FontDecoder - INFO - 开始解析字体映射
+2025-07-02 16:50:00,412 - FontDecoder - INFO - 解析完成! 发现 362 个可映射字符, 耗时 0.06秒
+2025-07-02 16:50:00,414 - FontDecoder - INFO - 字体映射已保存到缓存: cache/fonts\font_mapping_cache.json
+2025-07-02 16:50:00,414 - FontDecoder - INFO - 从本地字体文件更新映射成功!
+2025-07-02 16:50:37,807 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 16:50:37,807 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 16:50:56,817 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 16:50:56,817 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 16:50:56,817 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-02 16:50:56,817 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 16:50:56,818 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 16:50:57,036 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.22秒
+2025-07-02 16:50:59,104 - FontDecoder - INFO - 已加载OCR映射表: cache/mappings\599ab49090584e23_mapping.json，共362项
+2025-07-02 16:50:59,105 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 16:50:59,105 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 16:50:59,105 - FontDecoder - INFO - 从本地加载字体文件: cache\fonts\599ab49090584e23.otf
+2025-07-02 16:50:59,106 - FontDecoder - INFO - 开始解析字体映射
+2025-07-02 16:50:59,136 - FontDecoder - INFO - 解析完成! 发现 362 个可映射字符, 耗时 0.03秒
+2025-07-02 16:50:59,138 - FontDecoder - INFO - 字体映射已保存到缓存: cache/fonts\font_mapping_cache.json
+2025-07-02 16:50:59,138 - FontDecoder - INFO - 从本地字体文件更新映射成功!
+2025-07-02 16:59:36,289 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 16:59:36,290 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 17:02:24,613 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 17:02:24,613 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 17:02:50,081 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 17:02:50,082 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 17:02:50,082 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-02 17:02:50,083 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 17:02:50,083 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 17:02:50,711 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.63秒
+2025-07-02 17:04:28,553 - FontDecoder - INFO - 已加载OCR映射表: cache/mappings\599ab49090584e23_mapping.json，共362项
+2025-07-02 17:04:28,554 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 17:04:28,554 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 17:04:28,554 - FontDecoder - INFO - 从本地加载字体文件: cache\fonts\599ab49090584e23.otf
+2025-07-02 17:04:28,555 - FontDecoder - INFO - 开始解析字体映射
+2025-07-02 17:04:28,583 - FontDecoder - INFO - 解析完成! 发现 362 个可映射字符, 耗时 0.03秒
+2025-07-02 17:04:28,584 - FontDecoder - INFO - 字体映射已保存到缓存: cache/fonts\font_mapping_cache.json
+2025-07-02 17:04:28,584 - FontDecoder - INFO - 从本地字体文件更新映射成功!
+2025-07-02 17:22:02,405 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 17:22:02,406 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 17:22:23,466 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 17:22:23,467 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 17:22:23,467 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-02 17:22:23,467 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 17:22:23,468 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 17:22:24,220 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.75秒
+2025-07-02 17:33:43,398 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 17:33:43,398 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 17:34:03,410 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 17:34:03,411 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 17:34:03,411 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-02 17:34:03,412 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 17:34:03,412 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 17:34:03,704 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.29秒
+2025-07-02 19:19:41,019 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 19:19:41,019 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 19:20:16,629 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 19:20:16,629 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 19:20:16,629 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-02 19:20:16,631 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 19:20:16,631 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 19:20:16,872 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.24秒
+2025-07-02 19:31:39,079 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 19:31:39,080 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 19:31:59,557 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 19:31:59,557 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 19:31:59,558 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-02 19:31:59,558 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 19:31:59,558 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 19:31:59,806 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.25秒
+2025-07-02 19:39:42,263 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 19:39:42,263 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 19:40:03,297 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 19:40:03,298 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 19:40:03,298 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-02 19:40:03,298 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 19:40:03,299 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 19:40:03,639 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.34秒
+2025-07-02 19:48:01,750 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 19:48:01,750 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 19:48:22,370 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 19:48:22,370 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 19:48:22,370 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-02 19:48:22,371 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 19:48:22,371 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 19:48:22,514 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.14秒
+2025-07-02 19:48:22,515 - FontDecoder - INFO - 已加载OCR映射表: cache/mappings\599ab49090584e23_mapping.json，共362项
+2025-07-02 19:48:22,516 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 19:48:22,516 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 19:48:22,516 - FontDecoder - INFO - 从本地加载字体文件: cache\fonts\599ab49090584e23.otf
+2025-07-02 19:48:22,516 - FontDecoder - INFO - 开始解析字体映射
+2025-07-02 19:48:22,545 - FontDecoder - INFO - 解析完成! 发现 362 个可映射字符, 耗时 0.03秒
+2025-07-02 19:48:22,546 - FontDecoder - INFO - 字体映射已保存到缓存: cache/fonts\font_mapping_cache.json
+2025-07-02 19:48:22,546 - FontDecoder - INFO - 从本地字体文件更新映射成功!
+2025-07-02 19:48:41,835 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 19:48:41,835 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 19:49:01,138 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 19:49:01,146 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 19:49:01,146 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-02 19:49:01,147 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 19:49:01,147 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 19:49:01,343 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.20秒
+2025-07-02 19:54:53,658 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 19:54:53,658 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 19:55:12,936 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 19:55:12,936 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 19:55:12,938 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-02 19:55:12,938 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 19:55:12,938 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 19:55:13,088 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.15秒
+2025-07-02 20:18:46,682 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 20:18:46,682 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 20:19:06,261 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 20:19:06,262 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 20:19:06,262 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-02 20:19:06,263 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 20:19:06,263 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 20:19:06,496 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.23秒
+2025-07-02 20:24:18,221 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 20:24:18,222 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 20:25:05,067 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 20:25:05,068 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 20:25:05,068 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-02 20:25:05,068 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 20:25:05,069 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 20:25:05,244 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.17秒
+2025-07-02 20:37:24,367 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 20:37:24,367 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 20:37:44,730 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 20:37:44,731 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 20:37:44,731 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-02 20:37:44,731 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 20:37:44,732 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 20:37:44,913 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.18秒
+2025-07-02 20:43:30,795 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 20:43:30,795 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 20:43:50,701 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 20:43:50,701 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 20:43:50,702 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-02 20:43:50,702 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 20:43:50,702 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 20:43:50,885 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.18秒
+2025-07-02 20:48:10,813 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-07-02 20:48:10,816 - easyocr.easyocr - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-07-02 20:54:25,095 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 20:54:25,095 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 20:54:44,724 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 20:54:44,725 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 20:54:44,725 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-02 20:54:44,726 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 20:54:44,727 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 20:54:44,880 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.15秒
+2025-07-02 20:54:44,882 - FontDecoder - INFO - 已加载OCR映射表: cache/mappings\599ab49090584e23_mapping.json，共362项
+2025-07-02 20:54:44,883 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 20:54:44,884 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 20:54:44,884 - FontDecoder - INFO - 从本地加载字体文件: cache\fonts\599ab49090584e23.otf
+2025-07-02 20:54:44,885 - FontDecoder - INFO - 开始解析字体映射
+2025-07-02 20:54:44,929 - FontDecoder - INFO - 解析完成! 发现 362 个可映射字符, 耗时 0.04秒
+2025-07-02 20:54:44,930 - FontDecoder - INFO - 字体映射已保存到缓存: cache/fonts\font_mapping_cache.json
+2025-07-02 20:54:44,931 - FontDecoder - INFO - 从本地字体文件更新映射成功!
+2025-07-02 20:56:57,290 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 20:56:57,291 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 20:57:16,863 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 20:57:16,863 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 20:57:16,864 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-02 20:57:16,864 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 20:57:16,864 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 20:57:17,023 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.16秒
+2025-07-02 20:57:17,024 - FontDecoder - INFO - 已加载OCR映射表: cache/mappings\599ab49090584e23_mapping.json，共362项
+2025-07-02 20:57:17,025 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 20:57:17,025 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 20:57:17,025 - FontDecoder - INFO - 从本地加载字体文件: cache\fonts\599ab49090584e23.otf
+2025-07-02 20:57:17,026 - FontDecoder - INFO - 开始解析字体映射
+2025-07-02 20:57:17,053 - FontDecoder - INFO - 解析完成! 发现 362 个可映射字符, 耗时 0.03秒
+2025-07-02 20:57:17,054 - FontDecoder - INFO - 字体映射已保存到缓存: cache/fonts\font_mapping_cache.json
+2025-07-02 20:57:17,055 - FontDecoder - INFO - 从本地字体文件更新映射成功!
+2025-07-02 21:06:54,611 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-02 21:06:54,611 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-02 21:07:14,473 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 21:07:14,473 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 21:07:14,473 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-02 21:07:14,475 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 21:07:14,475 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-02 21:07:14,725 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.25秒
+2025-07-02 21:07:14,729 - FontDecoder - INFO - 已加载OCR映射表: cache/mappings\599ab49090584e23_mapping.json，共362项
+2025-07-02 21:07:14,729 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-02 21:07:14,731 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-02 21:07:14,731 - FontDecoder - INFO - 从本地加载字体文件: cache\fonts\599ab49090584e23.otf
+2025-07-02 21:07:14,732 - FontDecoder - INFO - 开始解析字体映射
+2025-07-02 21:07:14,779 - FontDecoder - INFO - 解析完成! 发现 362 个可映射字符, 耗时 0.05秒
+2025-07-02 21:07:14,780 - FontDecoder - INFO - 字体映射已保存到缓存: cache/fonts\font_mapping_cache.json
+2025-07-02 21:07:14,781 - FontDecoder - INFO - 从本地字体文件更新映射成功!
+2025-07-03 10:14:51,098 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-03 10:14:51,099 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-03 10:15:35,953 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-03 10:15:35,953 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-03 10:15:35,955 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-03 10:15:35,955 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-03 10:15:35,956 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-03 10:15:36,378 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.42秒
+2025-07-03 10:15:36,388 - FontDecoder - INFO - 已加载OCR映射表: cache/mappings\599ab49090584e23_mapping.json，共362项
+2025-07-03 10:15:36,389 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-03 10:15:36,389 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-03 10:15:36,390 - FontDecoder - INFO - 从本地加载字体文件: cache\fonts\599ab49090584e23.otf
+2025-07-03 10:15:36,399 - FontDecoder - INFO - 开始解析字体映射
+2025-07-03 10:15:36,453 - FontDecoder - INFO - 解析完成! 发现 362 个可映射字符, 耗时 0.05秒
+2025-07-03 10:15:36,454 - FontDecoder - INFO - 字体映射已保存到缓存: cache/fonts\font_mapping_cache.json
+2025-07-03 10:15:36,454 - FontDecoder - INFO - 从本地字体文件更新映射成功!
+2025-07-03 10:40:48,870 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-03 10:40:48,870 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-03 10:41:09,556 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-03 10:41:09,556 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-03 10:41:09,556 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-03 10:41:09,558 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-03 10:41:09,558 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-03 10:41:09,791 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.23秒
+2025-07-03 10:41:09,793 - FontDecoder - INFO - 已加载OCR映射表: cache/mappings\599ab49090584e23_mapping.json，共362项
+2025-07-03 10:41:09,793 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-03 10:41:09,794 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-03 10:41:09,794 - FontDecoder - INFO - 从本地加载字体文件: cache\fonts\599ab49090584e23.otf
+2025-07-03 10:41:09,794 - FontDecoder - INFO - 开始解析字体映射
+2025-07-03 10:41:09,824 - FontDecoder - INFO - 解析完成! 发现 362 个可映射字符, 耗时 0.03秒
+2025-07-03 10:41:09,826 - FontDecoder - INFO - 字体映射已保存到缓存: cache/fonts\font_mapping_cache.json
+2025-07-03 10:41:09,826 - FontDecoder - INFO - 从本地字体文件更新映射成功!
+2025-07-04 16:56:36,455 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-04 16:56:36,455 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-04 16:57:43,795 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-04 16:57:43,796 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-04 16:57:43,796 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-04 16:57:43,797 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-04 16:57:43,797 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-04 16:57:44,072 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.27秒
+2025-07-04 16:57:44,075 - FontDecoder - INFO - 已加载OCR映射表: cache/mappings\599ab49090584e23_mapping.json，共362项
+2025-07-04 16:57:44,076 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-04 16:57:44,077 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-04 16:57:44,078 - FontDecoder - INFO - 从本地加载字体文件: cache\fonts\599ab49090584e23.otf
+2025-07-04 16:57:44,101 - FontDecoder - INFO - 开始解析字体映射
+2025-07-04 16:57:44,182 - FontDecoder - INFO - 解析完成! 发现 362 个可映射字符, 耗时 0.08秒
+2025-07-04 16:57:44,184 - FontDecoder - INFO - 字体映射已保存到缓存: cache/fonts\font_mapping_cache.json
+2025-07-04 16:57:44,184 - FontDecoder - INFO - 从本地字体文件更新映射成功!
+2025-07-04 17:15:27,182 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-04 17:15:27,182 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-04 17:15:46,579 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-04 17:15:46,579 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-04 17:15:46,580 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-04 17:15:46,580 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-04 17:15:46,580 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-04 17:15:46,653 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.07秒
+2025-07-04 17:15:46,655 - FontDecoder - INFO - 已加载OCR映射表: cache/mappings\599ab49090584e23_mapping.json，共362项
+2025-07-04 17:15:46,655 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-04 17:15:46,656 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-04 17:15:46,656 - FontDecoder - INFO - 从本地加载字体文件: cache\fonts\599ab49090584e23.otf
+2025-07-04 17:15:46,656 - FontDecoder - INFO - 开始解析字体映射
+2025-07-04 17:15:46,683 - FontDecoder - INFO - 解析完成! 发现 362 个可映射字符, 耗时 0.03秒
+2025-07-04 17:15:46,684 - FontDecoder - INFO - 字体映射已保存到缓存: cache/fonts\font_mapping_cache.json
+2025-07-04 17:15:46,684 - FontDecoder - INFO - 从本地字体文件更新映射成功!

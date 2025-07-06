@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>OCR 映射人工校验</title>
+  <style>
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 4px; text-align: center; }
+    img { width: 48px; height: 48px; }
+    input { width: 60px; }
+    .empty { background: #ffecec; }
+    .loading { display: block; width: 48px; height: 48px; background: #f0f0f0; position: relative; }
+    .loading::after { 
+      content: "加载中"; 
+      position: absolute; 
+      top: 50%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+      font-size: 12px; 
+      color: #666; 
+    }
+    .error { display: block; width: 48px; height: 48px; background: #ffecec; position: relative; }
+    .error::after { 
+      content: "加载失败"; 
+      position: absolute; 
+      top: 50%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+      font-size: 12px; 
+      color: #f00; 
+    }
+    .loading-status { margin: 10px 0; }
+    .retry-btn { margin-left: 10px; }
+    .debug-info { font-size: 12px; color: #666; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h2>OCR 映射人工校验</h2>
+  <label><input type="checkbox" id="filterEmpty"> 只看空值</label>
+  <button onclick="saveJson()">保存为JSON</button>
+  <div class="loading-status">加载中: <span id="loadingCount">0</span> / <span id="totalCount">0</span> 
+    <button class="retry-btn" onclick="retryFailedImages()" style="display: none;">重试加载失败的图片</button>
+  </div>
+  <table id="ocrTable">
+    <thead>
+      <tr><th>Unicode</th><th>图片</th><th>识别结果</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <div class="debug-info">
+    <div>调试信息: <span id="debugInfo"></span></div>
+    <div>最后错误: <span id="lastError"></span></div>
+  </div>
+  <script>
+    let mapping = {};
+    let loadedImages = 0;
+    let totalImages = 0;
+    let failedImages = [];
+    let debugLog = [];
+    
+    // 添加调试日志
+    function addDebugLog(message) {
+      console.log(message);
+      debugLog.push(`${new Date().toISOString().substr(11, 8)}: ${message}`);
+      if (debugLog.length > 10) debugLog.shift();
+      document.getElementById('debugInfo').textContent = debugLog.join(' | ');
+    }
+    
+    // 记录错误信息
+    function logError(error) {
+      console.error(error);
+      document.getElementById('lastError').textContent = error;
+    }
+    
+    // 更新加载状态
+    function updateLoadingStatus() {
+      document.getElementById('loadingCount').textContent = loadedImages;
+      document.getElementById('totalCount').textContent = totalImages;
+      if (failedImages.length > 0) {
+        document.querySelector('.retry-btn').style.display = 'inline-block';
+        addDebugLog(`${failedImages.length}个图片加载失败`);
+      } else {
+        document.querySelector('.retry-btn').style.display = 'none';
+      }
+    }
+    
+    // 重试加载失败的图片
+    function retryFailedImages() {
+      const failedCopy = [...failedImages];
+      failedImages = [];
+      
+      addDebugLog(`重试加载${failedCopy.length}个失败图片`);
+      
+      failedCopy.forEach(element => {
+        const imgId = element.getAttribute('data-imgid');
+        const imgSrc = element.getAttribute('data-src');
+        loadImage(element, imgId, imgSrc);
+      });
+    }
+    
+    // 懒加载图片
+    function loadImage(element, imgId, imgSrc) {
+      try {
+        const img = new Image();
+        element.className = 'loading';
+        
+        img.onload = function() {
+          try {
+            element.className = '';
+            element.src = imgSrc; // 确保这行代码被执行
+            loadedImages++;
+            updateLoadingStatus();
+            addDebugLog(`图片加载成功: ${imgId}`);
+          } catch (e) {
+            logError(`图片onload错误(${imgId}): ${e.message}`);
+            element.className = 'error';
+            failedImages.push(element);
+            updateLoadingStatus();
+          }
+        };
+        
+        img.onerror = function(e) {
+          element.className = 'error';
+          failedImages.push(element);
+          updateLoadingStatus();
+          logError(`图片加载失败(${imgId}): ${imgSrc}`);
+          addDebugLog(`图片加载失败: ${imgId}`);
+        };
+        
+        // 设置图片源，触发加载
+        addDebugLog(`开始加载图片: ${imgId}`);
+        img.src = imgSrc;
+      } catch (e) {
+        logError(`加载图片异常(${imgId}): ${e.message}`);
+        element.className = 'error';
+        failedImages.push(element);
+        updateLoadingStatus();
+      }
+    }
+    
+    // 批量加载图片的函数，每批10个
+    function loadImageBatch(elements, startIdx, batchSize) {
+      const endIdx = Math.min(startIdx + batchSize, elements.length);
+      
+      addDebugLog(`批量加载图片: ${startIdx+1}-${endIdx}/${elements.length}`);
+      
+      for (let i = startIdx; i < endIdx; i++) {
+        const element = elements[i];
+        const imgSrc = element.getAttribute('data-src');
+        const imgId = element.getAttribute('data-imgid');
+        loadImage(element, imgId, imgSrc);
+      }
+      
+      // 如果还有更多图片要加载，设置下一批
+      if (endIdx < elements.length) {
+        setTimeout(() => {
+          loadImageBatch(elements, endIdx, batchSize);
+        }, 200); // 200ms后加载下一批，增加延迟减轻服务器压力
+      }
+    }
+
+    fetch('/mapping.json')
+      .then(r => {
+        if (!r.ok) {
+          throw new Error(`获取映射失败: ${r.status} ${r.statusText}`);
+        }
+        return r.json();
+      })
+      .then(data => {
+        mapping = data;
+        addDebugLog(`获取到${Object.keys(mapping).length}个映射项`);
+        renderTable();
+      })
+      .catch(error => {
+        logError(`获取映射文件失败: ${error.message}`);
+      });
+      
+    function renderTable() {
+      try {
+        const tbody = document.querySelector('#ocrTable tbody');
+        tbody.innerHTML = '';
+        
+        // 计算总图片数
+        totalImages = Object.keys(mapping).length;
+        loadedImages = 0;
+        failedImages = [];
+        updateLoadingStatus();
+        
+        addDebugLog(`开始渲染${totalImages}个图片`);
+        
+        // 创建所有行和占位符
+        Object.entries(mapping).forEach(([key, val]) => {
+          try {
+            const tr = document.createElement('tr');
+            if (!val) tr.classList.add('empty');
+            
+            // 确保生成正确大小写的文件名
+            const charCode = key.charCodeAt(0);
+            const unicodeHex = charCode.toString(16).toUpperCase().padStart(4, '0');
+            const imgSrc = `/ocr_chars/U${unicodeHex}.png`;
+            
+            tr.innerHTML = `
+              <td>U${unicodeHex}</td>
+              <td><img class="loading" data-src="${imgSrc}" data-imgid="U${unicodeHex}"></td>
+              <td><input value="${val || ''}" onchange="mapping['${key}']=this.value"></td>
+            `;
+            tbody.appendChild(tr);
+          } catch (e) {
+            logError(`渲染行失败(${key}): ${e.message}`);
+          }
+        });
+        
+        // 获取所有图片元素并开始批量加载
+        const imgElements = Array.from(document.querySelectorAll('#ocrTable img'));
+        loadImageBatch(imgElements, 0, 10); // 每批加载10个图片，减少原来的20个为10个
+        
+        applyFilter();
+      } catch (e) {
+        logError(`渲染表格失败: ${e.message}`);
+      }
+    }
+    
+    document.getElementById('filterEmpty').onchange = applyFilter;
+    function applyFilter() {
+      const showEmpty = document.getElementById('filterEmpty').checked;
+      document.querySelectorAll('#ocrTable tbody tr').forEach(tr => {
+        tr.style.display = (!showEmpty || tr.classList.contains('empty')) ? '' : 'none';
+      });
+    }
+    
+    function saveJson() {
+      try {
+        fetch('/save', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify(mapping, null, 2)
+        })
+        .then(r => {
+          if (!r.ok) {
+            throw new Error(`保存失败: ${r.status} ${r.statusText}`);
+          }
+          return r.json();
+        })
+        .then(res => {
+          alert('保存成功！');
+          addDebugLog('保存映射成功');
+        })
+        .catch(e => {
+          logError(`保存失败: ${e.message}`);
+          alert(`保存失败: ${e.message}`);
+        });
+      } catch (e) {
+        logError(`保存异常: ${e.message}`);
+        alert(`保存异常: ${e.message}`);
+      }
+    }
+  </script>
+</body>
+</html> 
