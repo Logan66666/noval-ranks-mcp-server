@@ -1464,3 +1464,6 @@
 [2025-07-06 10:31:19,944] INFO in server: 请求: POST /save 来自 127.0.0.1
 [2025-07-06 10:31:19,945] INFO in server: 保存映射数据，包含 362 个项目
 [2025-07-06 10:31:19,945] INFO in server: 响应: 200 用时 0.0010秒
+[2025-07-06 10:32:02,474] INFO in server: 使用映射文件: d:\11_WorkSpace\noval-ranks-mcp-server\cache\mappings\599ab49090584e23_mapping.json
+[2025-07-06 10:32:02,512] INFO in server: 启动服务器，图片目录: d:\11_WorkSpace\noval-ranks-mcp-server\tools\ocr_chars
+[2025-07-06 10:32:02,513] INFO in server: 已配置MIME类型: image/png -> .png
