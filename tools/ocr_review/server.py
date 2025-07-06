@@ -18,7 +18,7 @@ LOG_DIR = os.path.abspath(os.path.join(BASE_DIR, '../../logs'))
 os.makedirs(LOG_DIR, exist_ok=True)
 
 log_file = os.path.join(LOG_DIR, 'ocr_server.log')
-file_handler = RotatingFileHandler(log_file, maxBytes=1024*1024, backupCount=5)
+file_handler = RotatingFileHandler(log_file, maxBytes=1024*1024, backupCount=5, encoding='utf-8')
 file_handler.setFormatter(logging.Formatter(
     '[%(asctime)s] %(levelname)s in %(module)s: %(message)s'
 ))
