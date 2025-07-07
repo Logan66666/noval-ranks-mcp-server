@@ -10,6 +10,7 @@
 模块说明：
   - get_book_list: 主接口函数，获取书籍列表数据
   - main: 命令行入口函数，执行数据获取并保存
+  - mcp_handler: MCP客户端处理函数，支持MCP调用
 
 作者：[请替换为实际作者]
 创建日期：[请替换为实际创建日期]
@@ -18,12 +19,24 @@
 import requests
 import json
 import os
+import sys
 from urllib.parse import urlencode
 
-def get_book_list():
+def get_book_list(page_count=20, page_index=0, gender=-1, category_id=-1, 
+                 creation_status=-1, word_count=-1, book_type=-1, sort=0):
     """
     获取番茄小说书籍列表
     
+    参数:
+        page_count (int): 每页显示的书籍数量
+        page_index (int): 页码索引，从0开始
+        gender (int): 性别筛选，-1表示全部，0表示女性，1表示男性
+        category_id (int): 分类ID，-1表示全部
+        creation_status (int): 创作状态，-1表示全部，0表示已完结，1表示连载中
+        word_count (int): 书籍总字数，-1表示字数不限
+        book_type (int): 书籍类型，-1表示全部
+        sort (int): 排序方式，0表示最热，1表示最新，2表示字数最多
+        
     返回:
         tuple: (数据字典, 保存的文件路径)，如果失败则返回 (None, None)
     """
@@ -31,14 +44,14 @@ def get_book_list():
     
     # 请求参数
     params = {
-        'page_count': 20,
-        'page_index': 0,
-        'gender': -1,   # 性别，-1表示全部,0表示女性，1表示男性
-        'category_id': -1,  # 分类，-1表示全部
-        'creation_status': -1,  # 创作状态，-1表示全部，0表示已完结，1表示连载中
-        'word_count': -1,   # 书籍总字数，-1表示字数不限
-        'book_type': -1,    # 必填
-        'sort': 0   # 排序方式，0表示最热，1表示最新，2表示字数最多
+        'page_count': page_count,
+        'page_index': page_index,
+        'gender': gender,   # 性别，-1表示全部,0表示女性，1表示男性
+        'category_id': category_id,  # 分类，-1表示全部
+        'creation_status': creation_status,  # 创作状态，-1表示全部，0表示已完结，1表示连载中
+        'word_count': word_count,   # 书籍总字数，-1表示字数不限
+        'book_type': book_type,    # 必填
+        'sort': sort   # 排序方式，0表示最热，1表示最新，2表示字数最多
     }
     
     # 设置请求头
@@ -86,6 +99,49 @@ def get_book_list():
         print(f"未知错误: {e}")
         return None, None
 
+def mcp_handler():
+    """
+    MCP客户端处理函数
+    用于处理来自MCP客户端的请求，读取标准输入中的参数，调用get_book_list函数，
+    并将结果以JSON格式返回到标准输出
+    
+    使用方式:
+    python -m mcp.api.client <参数>
+    """
+    try:
+        # 从标准输入读取参数
+        input_data = json.load(sys.stdin)
+        
+        # 提取参数，使用默认值
+        params = {
+            'page_count': input_data.get('page_count', 20),
+            'page_index': input_data.get('page_index', 0),
+            'gender': input_data.get('gender', -1),
+            'category_id': input_data.get('category_id', -1),
+            'creation_status': input_data.get('creation_status', -1),
+            'word_count': input_data.get('word_count', -1),
+            'book_type': input_data.get('book_type', -1),
+            'sort': input_data.get('sort', 0)
+        }
+        
+        # 调用API函数
+        data, _ = get_book_list(**params)
+        
+        # 输出结果到标准输出
+        result = {
+            'success': data is not None,
+            'data': data
+        }
+        json.dump(result, sys.stdout, ensure_ascii=False)
+        
+    except Exception as e:
+        # 返回错误信息
+        error_result = {
+            'success': False,
+            'error': str(e)
+        }
+        json.dump(error_result, sys.stdout, ensure_ascii=False)
+
 def main():
     """
     主函数
@@ -105,4 +161,9 @@ def main():
     print(f"数据已保存到: {saved_file}")
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) > 1 and sys.argv[1] == "--mcp":
+        # MCP模式
+        mcp_handler()
+    else:
+        # 常规模式
+        main()

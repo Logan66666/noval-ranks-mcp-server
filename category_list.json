@@ -1,0 +1,3312 @@
+{
+	"gender=-1": [
+		{
+			"category_id": 1141,
+			"label": "主分类",
+			"name": "西方奇幻",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": "偏西方世界背景下，包含魔法斗气奥术等奇幻元素的小说"
+		},
+		{
+			"category_id": 1140,
+			"label": "主分类",
+			"name": "东方仙侠",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": "偏东方世界背景下，包含修仙修道修真等仙侠元素的小说"
+		},
+		{
+			"category_id": 1139,
+			"label": "主分类",
+			"name": "古风世情",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": "女频历史、权谋以及原生土著的偏古色古香的古代言情小说"
+		},
+		{
+			"category_id": 8,
+			"label": "主分类",
+			"name": "科幻末世",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/c2c3a125fb9594d8eebd73924bb19136~tplv-noop.image",
+			"description": "末世、丧尸、星际、机甲、未来科技等"
+		},
+		{
+			"category_id": 1016,
+			"label": "主分类",
+			"name": "男频衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1015,
+			"label": "主分类",
+			"name": "女频衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1017,
+			"label": "主分类",
+			"name": "民国言情",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1014,
+			"label": "主分类",
+			"name": "都市高武",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 751,
+			"label": "主分类",
+			"name": "悬疑灵异",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/e35636424621dc54b46f2252f546c88e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 539,
+			"label": "主分类",
+			"name": "悬疑脑洞",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/d14cd3808abd23dffdfad0c4a2eef714~tplv-noop.image",
+			"description": "脑洞向的悬疑灵异、破案探险类，以及诡异复苏、惊悚游戏、规则怪谈等带有创意的悬疑新类型"
+		},
+		{
+			"category_id": 504,
+			"label": "主分类",
+			"name": "抗战谍战",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/cb71c98a73db248ac911c64dd1518692~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 749,
+			"label": "主分类",
+			"name": "青春甜宠",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/5f52ac25d2fbe0cd043e03a211464f7f~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 275,
+			"label": "主分类",
+			"name": "双男主",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/4bf3d55ed071574cc1bfa0531046f132~tplv-noop.image",
+			"description": "向往美好，存在于同性之间的唯美爱情"
+		},
+		{
+			"category_id": 253,
+			"label": "主分类",
+			"name": "古言脑洞",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/842a2e2897b02d17bdf37fbe085b6a5e~tplv-noop.image",
+			"description": "快穿、系统、金手指、读心术、几岁半、古代幻想等偏古言脑脑洞文"
+		},
+		{
+			"category_id": 273,
+			"label": "主分类",
+			"name": "历史古代",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/dd4da2d60ae6d9235e4247f9caa05f66~tplv-noop.image",
+			"description": "以种田、朝堂、智谋、争霸、科举等为主要元素，行文严谨，兼顾历史真实与艺术创作规律的无金手指非系统历史文"
+		},
+		{
+			"category_id": 272,
+			"label": "主分类",
+			"name": "历史脑洞",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/d0859cacc8087da6699ea9b18cf47a92~tplv-noop.image",
+			"description": "脑洞向历史，一般有金手指"
+		},
+		{
+			"category_id": 267,
+			"label": "主分类",
+			"name": "现言脑洞",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/672c3f9f051c4477f5d40bd292da543f~tplv-noop.image",
+			"description": "快穿、穿书读心术、无限流、系统、空间等现言脑洞文"
+		},
+		{
+			"category_id": 263,
+			"label": "主分类",
+			"name": "都市种田",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b5e3477ca1ba3ca033cb61005dd4d85f~tplv-noop.image",
+			"description": "重生年代文、职场商战文、种田建设等都市文"
+		},
+		{
+			"category_id": 262,
+			"label": "主分类",
+			"name": "都市脑洞",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/814ec8e3d69660b41dd0e9f10599944e~tplv-noop.image",
+			"description": "脑洞向都市"
+		},
+		{
+			"category_id": 261,
+			"label": "主分类",
+			"name": "都市日常",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/842a2e2897b02d17bdf37fbe085b6a5e~tplv-noop.image",
+			"description": "都市情感、现实生活等都市文"
+		},
+		{
+			"category_id": 257,
+			"label": "主分类",
+			"name": "玄幻脑洞",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/6dd2a65d0a4a094e18a337af1bb472fb~tplv-noop.image",
+			"description": "脑洞向玄幻"
+		},
+		{
+			"category_id": 248,
+			"label": "主分类",
+			"name": "玄幻言情",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/0ba0112174351e847effd5bcfd553a1f~tplv-noop.image",
+			"description": "玄幻、丹药、萌宠、御兽、修真、修仙、仙侠、武侠、金手指等女强爽文"
+		},
+		{
+			"category_id": 246,
+			"label": "主分类",
+			"name": "宫斗宅斗",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/8141a7d0ed53b5130c365664810251d2~tplv-noop.image",
+			"description": "古代背景下包含医术等元素，女主在后宅宫闱中奋斗的小说"
+		},
+		{
+			"category_id": 748,
+			"label": "主分类",
+			"name": "豪门总裁",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/5cd2e417ad81c0fb02630ab2c0eedfc2~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 27,
+			"label": "主分类",
+			"name": "战神赘婿",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/5cb6500c8b547438b668f1aa525d5641~tplv-noop.image",
+			"description": "都市向战神，兵王文"
+		},
+		{
+			"category_id": 718,
+			"label": "主分类",
+			"name": "动漫衍生",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/f0d53b9e2b73bd9681497ce83b93fadb~tplv-noop.image",
+			"description": "游戏、动漫、影视、小说等内容的衍生二次创作作品"
+		},
+		{
+			"category_id": 745,
+			"label": "主分类",
+			"name": "星光璀璨",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/a55c87a79b65726a3fb9f0983382a46a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 746,
+			"label": "主分类",
+			"name": "游戏体育",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/16b3ace522211a087ab2baad3a11e094~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 750,
+			"label": "主分类",
+			"name": "职场婚恋",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/2c06f6aa231ade2a7dac2ca803c1a02c~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 704,
+			"label": "主分类",
+			"name": "双女主",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/e80deef77f761cffc4d4738315553bbe~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 258,
+			"label": "主分类",
+			"name": "传统玄幻",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/53b5eda487cdc97437554496c56f481f~tplv-noop.image",
+			"description": "废柴逆袭，强者重生等传统玄幻，高武世界，异世大陆文"
+		},
+		{
+			"category_id": 124,
+			"label": "主分类",
+			"name": "都市修真",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f00d2d1f7bce857c91da83ac34dde0b9~tplv-noop.image",
+			"description": "以修真为力量体系的都市文"
+		},
+		{
+			"category_id": 79,
+			"label": "主分类",
+			"name": "年代",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/92b320330c35c2f76d8d024d9dcc6c18~tplv-noop.image",
+			"description": "穿越年代、重生年代、空间金手指、物资超市等现言年代文"
+		},
+		{
+			"category_id": 23,
+			"label": "主分类",
+			"name": "种田",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/eeff8c38fa2d829be20718ee2a48c943~tplv-noop.image",
+			"description": "种田、空间、灵泉、逃荒、远古蛮荒、经商、基建、科举、美食、渔业、家长里短、致富等古言文"
+		},
+		{
+			"category_id": 24,
+			"label": "主分类",
+			"name": "快穿",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/9f0a39a824fac46d0ebba014c020ed70~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1012,
+			"label": "主题",
+			"name": "纯爱",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1079,
+			"label": "主题",
+			"name": "衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1058,
+			"label": "主题",
+			"name": "综影视",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 873,
+			"label": "主题",
+			"name": "赛博朋克",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/aa22096d37de265d87270e6bb13c8c82~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1169,
+			"label": "主题",
+			"name": "悬疑恋爱",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 10,
+			"label": "主题",
+			"name": "悬疑",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f53399cf27ce1b0f739377fa010685fd~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 705,
+			"label": "主题",
+			"name": "克苏鲁",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/0e2867dc6c5ab3bba8f4163eebabcb77~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 516,
+			"label": "主题",
+			"name": "都市异能",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/787cb1561beefd3fc1641b2555e7efc1~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 515,
+			"label": "主题",
+			"name": "末日求生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/9b857be2a15cb10a66c23979ff6b7474~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 514,
+			"label": "主题",
+			"name": "灵气复苏",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/33b897d1d998ee73142f4124ec4530d3~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 513,
+			"label": "主题",
+			"name": "高武世界",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ef053b037b992dfaead4db488cd8b264~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 512,
+			"label": "主题",
+			"name": "异世大陆",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/66b947d3af56ca908afe1cff82c347e5~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 511,
+			"label": "主题",
+			"name": "东方玄幻",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/de13bc39611d964bbcab1f4f42f9b23f~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 507,
+			"label": "主题",
+			"name": "谍战",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/3abde4421531e165f68bbf76e57a202d~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 503,
+			"label": "主题",
+			"name": "清朝",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/e7d36a5443e4c5b6967f8eaa4a2320fe~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 501,
+			"label": "主题",
+			"name": "宋朝",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/fa6f2f2dbb7118f7e589cc3b480a18c8~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 500,
+			"label": "主题",
+			"name": "断层",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/76b88694e50a36fdacb013d8694b35db~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 497,
+			"label": "主题",
+			"name": "武将",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/f9b988c73fca52567f74244fbce5466d~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 496,
+			"label": "主题",
+			"name": "国运",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/3cfd5f9646d00c6a8dd3bf99bada97d9~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 485,
+			"label": "主题",
+			"name": "职场商战",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f786d33974db04496f50865554efcb93~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 474,
+			"label": "主题",
+			"name": "日久生情",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/4c9c58725caefe30b09b452827706bb1~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 473,
+			"label": "主题",
+			"name": "豪门世家",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/878282d31667a3e93001e1659806b801~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 465,
+			"label": "主题",
+			"name": "综漫",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/d14be4047dd3895b0dbb2588265053a9~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 464,
+			"label": "主题",
+			"name": "异世穿越",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/0982c5bdf918f8d726a80c1eed531cde~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 460,
+			"label": "主题",
+			"name": "独宠",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f294f11032d2b4c3881744254978b6bc~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 453,
+			"label": "主题",
+			"name": "开局",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/d75fa24a53afe4cf8c766697d2473d65~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 452,
+			"label": "主题",
+			"name": "架空",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f107a7984c9bb9431f7935c97b77b98f~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 259,
+			"label": "主题",
+			"name": "奇幻仙侠",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/d75fa24a53afe4cf8c766697d2473d65~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1,
+			"label": "主题",
+			"name": "都市",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/0b588d2c83795a2f3c23469a531c5f3c~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 3,
+			"label": "主题",
+			"name": "现代言情",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/d0920282480e07bc06003bbf71fbcf16~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 5,
+			"label": "主题",
+			"name": "古代言情",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/2d2bdcbe303264ec9abbcf5dac81a869~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 7,
+			"label": "主题",
+			"name": "玄幻",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/5eaacb7ca3774afe3e0bf1d82b67c78c~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 12,
+			"label": "主题",
+			"name": "历史",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/dd4da2d60ae6d9235e4247f9caa05f66~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 15,
+			"label": "主题",
+			"name": "体育",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/39b42c06a8d643a6a880d6935183abca~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 16,
+			"label": "主题",
+			"name": "武侠",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b84a720b6e987d0bd9611d5d2c751f48~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 32,
+			"label": "主题",
+			"name": "幻想言情",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/92323b15b47afeeb096ade2ab268a538~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 29,
+			"label": "角色",
+			"name": "总裁",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/29504b9c4f4750b9dc3c9fc9fdb692e3~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 91,
+			"label": "角色",
+			"name": "多女主",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/3cfae23d092dbf2905ff6a2942f8c946~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 25,
+			"label": "角色",
+			"name": "赘婿",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ead119e333c6b571ef28efb856139aa3~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 521,
+			"label": "角色",
+			"name": "作精",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/f124087844c32ceaede91df38de84aa5~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 520,
+			"label": "角色",
+			"name": "大佬",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/eefa54d755c4ec28e451688aaf0a147a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 519,
+			"label": "角色",
+			"name": "大小姐",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/bf9670d4ec3e8fa8242f9cf8878d17de~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 518,
+			"label": "角色",
+			"name": "特工",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/708e1fb0546df9102dfb07f76748ba0f~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 509,
+			"label": "角色",
+			"name": "游戏主播",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/79fb542654cd01eb6e8b1e321719234a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 506,
+			"label": "角色",
+			"name": "神探",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/43a07733d90764fc7e18b67224a2a8b4~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 502,
+			"label": "角色",
+			"name": "宫廷侯爵",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b3d6eb65cf4fae2cbc003a46869668b6~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 498,
+			"label": "角色",
+			"name": "皇帝",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/48c3801dee0ed81f860e5602795b1964~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 492,
+			"label": "角色",
+			"name": "将军",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/d137193ea1f792153636c04ac7bb9b4a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 491,
+			"label": "角色",
+			"name": "毒医",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/55caac3f7c0d65a892b7eecea1b5baee~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 490,
+			"label": "角色",
+			"name": "厨娘",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/831ba2bea921bcfc13054b29a7201a83~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 488,
+			"label": "角色",
+			"name": "律师",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/999789a8920e8122e17d96c3c62de92a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 487,
+			"label": "角色",
+			"name": "医生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/41b0845485c4ac408052637d31352a86~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 486,
+			"label": "角色",
+			"name": "明星",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/d965288adcd79bde690692e915a36249~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 470,
+			"label": "角色",
+			"name": "替身",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/9d12c7599dba7ad801defa093f0b8144~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 469,
+			"label": "角色",
+			"name": "双面",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b4a4b3a221ca9a315f50c980d58105d3~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 468,
+			"label": "角色",
+			"name": "冰山",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/ebe8270e32820abeff32d372ba2ddd28~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 459,
+			"label": "角色",
+			"name": "古灵精怪",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/7d62f94b8cbdd181f4d0f494c0fe0471~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 455,
+			"label": "角色",
+			"name": "天作之合",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/61902ee1a149a4d64339606b81ede779~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 454,
+			"label": "角色",
+			"name": "可盐可甜",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/cf0e6d1f25e09c1671d93a07e06ff87d~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 392,
+			"label": "角色",
+			"name": "无CP",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/7162bbc0911f87f36441425fbe73840b~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 389,
+			"label": "角色",
+			"name": "单女主",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/84d5b3a51365eb220f10965394de59cc~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 385,
+			"label": "角色",
+			"name": "校花",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/d2a7c03d9209de9cec5020483e57cb9e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 391,
+			"label": "角色",
+			"name": "无女主",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/98ab34242d9b2e180167a9cd78574111~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 380,
+			"label": "角色",
+			"name": "病娇",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/08e0218fb42f7d0efc55e0b7b6997669~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 378,
+			"label": "角色",
+			"name": "女帝",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b6ce5d96dcd888cc44f78e031ce4add2~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 375,
+			"label": "角色",
+			"name": "特种兵",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ab47a5f07a40fdb2d6c8cf4beb991618~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 369,
+			"label": "角色",
+			"name": "反派",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/2bb7f7f6db5d739cf02aa2c14db9f099~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 28,
+			"label": "角色",
+			"name": "萌宝",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/060947143e11b4475a1395eac02ece4f~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 26,
+			"label": "角色",
+			"name": "神医",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/a87d71126e6f8d1606b37539dd8b37bd~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 30,
+			"label": "角色",
+			"name": "宠妻",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/502ce16b3870f8a8a1660b61983cba52~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 42,
+			"label": "角色",
+			"name": "奶爸",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/577d9a209c5bb811c5c8e0fcb8888728~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 82,
+			"label": "角色",
+			"name": "学霸",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/9b7dba317b1209b7c5152b406ca0a8f7~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 83,
+			"label": "角色",
+			"name": "公主",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca396c4e3a779577af77eee36b04b997~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 84,
+			"label": "角色",
+			"name": "皇后",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/0229de7714a1d2657ba36b3a63b9db4c~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 85,
+			"label": "角色",
+			"name": "王妃",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/08c26adf9f6c92827d8043a279a58711~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 86,
+			"label": "角色",
+			"name": "女强",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/5668b99075402702d9f0dc3e53c35d7b~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 87,
+			"label": "角色",
+			"name": "皇叔",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/82fa69249d9156a835109772f8517713~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 88,
+			"label": "角色",
+			"name": "嫡女",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f46e41383618bbd93dc36761ec54de9a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 89,
+			"label": "角色",
+			"name": "精灵",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/597aee47f7bdb79ce257d7ad79f6ae72~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 90,
+			"label": "角色",
+			"name": "天才",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/54474c197ea57c86db3b7ee725e1cb62~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 92,
+			"label": "角色",
+			"name": "腹黑",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/5e376982fafc00d0feb359c5c0705552~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 93,
+			"label": "角色",
+			"name": "扮猪吃虎",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/c2d0dc6edb5640c07a638ec7efaf1d6a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 94,
+			"label": "角色",
+			"name": "团宠",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/fffcc0c43a466099edcfd11ae09af075~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1060,
+			"label": "情节",
+			"name": "十日衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 373,
+			"label": "情节",
+			"name": "西游衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f5370ac78ed17a53a45315c717627961~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1037,
+			"label": "情节",
+			"name": "公版衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1036,
+			"label": "情节",
+			"name": "红楼衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1035,
+			"label": "情节",
+			"name": "甄嬛衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1034,
+			"label": "情节",
+			"name": "如懿衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1062,
+			"label": "情节",
+			"name": "斩神衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 872,
+			"label": "情节",
+			"name": "追夫",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/aa22096d37de265d87270e6bb13c8c82~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 842,
+			"label": "情节",
+			"name": "追妻",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/aa22096d37de265d87270e6bb13c8c82~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 495,
+			"label": "情节",
+			"name": "四合院",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/7557f39214cac3df2ddc5154b66ef968~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 508,
+			"label": "情节",
+			"name": "电竞",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/dc7fd14cb456018fba92b5b5be022377~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 524,
+			"label": "情节",
+			"name": "双重生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/4948d6a9452eca23b828744439c92a82~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 523,
+			"label": "情节",
+			"name": "前世今生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ef4effc5d4d61f3c4fdb3f3b2528d077~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 11,
+			"label": "情节",
+			"name": "乡村",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/e722520017e645f91467488fcf26f6a2~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 557,
+			"label": "情节",
+			"name": "逃荒",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/e8cef5e6ea3ee37ef5482c0ab929d3c5~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 538,
+			"label": "情节",
+			"name": "同人",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/69ed3e7ec53852d9322e7f9dc33187b8~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 522,
+			"label": "情节",
+			"name": "打脸",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/fede966c7a315279e2c692edc8b8cff3~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 505,
+			"label": "情节",
+			"name": "破案",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/dd4da2d60ae6d9235e4247f9caa05f66~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 494,
+			"label": "情节",
+			"name": "囤物资",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/1ab1b361a0f4f1ecab8808eb66c9bd73~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 493,
+			"label": "情节",
+			"name": "钓鱼",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b5e3477ca1ba3ca033cb61005dd4d85f~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 484,
+			"label": "情节",
+			"name": "HE",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/60d4390ab634a8e8166fcca934ca7dfb~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 483,
+			"label": "情节",
+			"name": "相爱相杀",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/6cd573487b3c03ebe3247dadf4621341~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 482,
+			"label": "情节",
+			"name": "暗恋",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/9ceff26cac3c9b8336e4f971c9d696ce~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 480,
+			"label": "情节",
+			"name": "逃婚",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/0d3843f224b6470ed3efa5284ecf6086~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 479,
+			"label": "情节",
+			"name": "带球跑",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/7e5a71d80fdbbd6c4d67600bf0a5fc32~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 478,
+			"label": "情节",
+			"name": "强强",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/341518493eccc2f4928ea6f3188423ce~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 477,
+			"label": "情节",
+			"name": "一见钟情",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/cd4b3030ed459dbe62e1ceb6bbece009~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 476,
+			"label": "情节",
+			"name": "双向奔赴",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/7502d0517c65ab7292b8e3be52175305~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 475,
+			"label": "情节",
+			"name": "破镜重圆",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/043d0c68afdb9b7d69d1f4cb20aa2a25~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 471,
+			"label": "情节",
+			"name": "契约婚姻",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/93c79961ff7ea44e8b752702eeb9351e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 467,
+			"label": "情节",
+			"name": "隐婚",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/0b8f8d65cf5ac32ce4b7dbb9eadadccc~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 466,
+			"label": "情节",
+			"name": "闪婚",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/bb20d6a875adf689352972dfa2e56ce4~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 463,
+			"label": "情节",
+			"name": "今穿古",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/078b40c28797ad50b2c70295d4db81bc~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 462,
+			"label": "情节",
+			"name": "古穿今",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ee0fd2013ed8dc4640297d9bfd02b43b~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 461,
+			"label": "情节",
+			"name": "群穿",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/2a56cb4b66351f4248c659c36ea26288~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 458,
+			"label": "情节",
+			"name": "护短",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b780209fdfc4b12d45629cea6ff22d2a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 457,
+			"label": "情节",
+			"name": "虐渣",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/25c2d7e6f966cf9e2e9f191d17e9ec2c~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 456,
+			"label": "情节",
+			"name": "情有独钟",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/9cdf49ebde8e55525c14cd773298cc87~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 266,
+			"label": "情节",
+			"name": "马甲",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/de8d6e24f956d6fbaae1a9c8f8252e9b~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 247,
+			"label": "情节",
+			"name": "医术",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/9b208c21fa2985d4ce44a663712dee80~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 372,
+			"label": "情节",
+			"name": "网游",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/d75fa24a53afe4cf8c766697d2473d65~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 367,
+			"label": "情节",
+			"name": "奥特同人",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/c9b12fc6d6e3a13b14551023ea5c90f4~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 379,
+			"label": "情节",
+			"name": "求生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ba0ffa205c6e37c151fc84fea7bf4deb~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 388,
+			"label": "情节",
+			"name": "女扮男装",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/01ff0884e081fd9b1186e178c5301686~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 387,
+			"label": "情节",
+			"name": "青梅竹马",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b40871c7ac4c21853ae75db0318df431~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 384,
+			"label": "情节",
+			"name": "无敌",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/8d48cb57d244373e1435aab58419e3b8~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 390,
+			"label": "情节",
+			"name": "民国",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/a6647830f2289121baa0583b03967d3a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 383,
+			"label": "情节",
+			"name": "九叔",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f97ef3ebba26214eb4f7f9befce3b05f~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 382,
+			"label": "情节",
+			"name": "穿书",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/8ee26a51774019d3e8b8372a23ade3e6~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 381,
+			"label": "情节",
+			"name": "聊天群",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/7deb4139c40f16a9ca3f0507db4db4fb~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 377,
+			"label": "情节",
+			"name": "大秦",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f8d9cad25193ba2ba20a41bd13cb15ad~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 376,
+			"label": "情节",
+			"name": "龙珠",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/a0ed37c44b925252e2a607196f7e98f4~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 374,
+			"label": "情节",
+			"name": "漫威",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/c97890bf7a089374121c2ceecfa765e9~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 371,
+			"label": "情节",
+			"name": "神奇宝贝",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/48c9cbd7da6dca312847437ea68d62f4~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 370,
+			"label": "情节",
+			"name": "海贼",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/047cfdd1ff1862d4701c3f8b9ec4634b~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 368,
+			"label": "情节",
+			"name": "火影",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/e8832f1aee3fc6712fb7c2ae44e582c7~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 127,
+			"label": "情节",
+			"name": "职场",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/1eefd3766a6b5673a58b7402f28b73ef~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 126,
+			"label": "情节",
+			"name": "明朝",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/7bf940e4c0bf813ea2ee9a7d09e7efd4~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 125,
+			"label": "情节",
+			"name": "家庭",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/c3b1630640f25ca3fd1d4d572146b5b1~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 67,
+			"label": "情节",
+			"name": "三国",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/5c7c489a4b99df28df9a7a97949b55a4~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 68,
+			"label": "情节",
+			"name": "末世",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f015e5c084020763a46c2c913ad1e0d7~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 69,
+			"label": "情节",
+			"name": "直播",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b237123626bbaad3aacaefcc42bfeda2~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 70,
+			"label": "情节",
+			"name": "无限流",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/74f8f665d4a6bb45137369c3635ceb85~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 71,
+			"label": "情节",
+			"name": "诸天万界",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/957b2070db5944463a97dde241dde622~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 72,
+			"label": "情节",
+			"name": "兽世",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/43f0694a9f6bf82f2c4da49cbf785fff~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 73,
+			"label": "情节",
+			"name": "大唐",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b550bec4bac44b6c1b51fd2b96bcd4cc~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 74,
+			"label": "情节",
+			"name": "宠物",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/5bbe15243d95e474884551e605f47f98~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 75,
+			"label": "情节",
+			"name": "外卖",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/07905b82fa4face157f71ad5d34d18c4~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 76,
+			"label": "情节",
+			"name": "清穿",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/d6b8cb9eeb76ce722e9e2fcb4aa25fc0~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 77,
+			"label": "情节",
+			"name": "星际",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/6653d77d37ca5ebe4bb514aa28a6cd4f~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 78,
+			"label": "情节",
+			"name": "美食",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/4a8e023f74bc43e47afd8eaa3bb90417~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 80,
+			"label": "情节",
+			"name": "剑道",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/8760e502119786f2955264c2e63afba3~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 81,
+			"label": "情节",
+			"name": "盗墓",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/8cb607afc074ad00ea1db5404f5966a0~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 95,
+			"label": "情节",
+			"name": "虐文",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/9520e9f1797e2612083fd7731d12f5c4~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 96,
+			"label": "情节",
+			"name": "甜宠",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/bfc5434637db3a711b7c8f6ba9653cb6~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 100,
+			"label": "情节",
+			"name": "灵异",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/2bd928b8a206ed0e6e1b5901c89b8f9c~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 4,
+			"label": "情节",
+			"name": "校园",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/7ba5e316b25ea14cda22e3ab8bbc6672~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 17,
+			"label": "情节",
+			"name": "鉴宝",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/42b63e24d8f7ef04aea1e6f80285b237~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 19,
+			"label": "情节",
+			"name": "系统",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/9f70ab9050653b36ca81d52156866135~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 20,
+			"label": "情节",
+			"name": "神豪",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/75f1ea60a42c16afff15c5e1411e9c90~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 36,
+			"label": "情节",
+			"name": "重生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/c7df2ed041d21df552eb57b76bf6e83f~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 37,
+			"label": "情节",
+			"name": "穿越",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/a8e7c0022ef67eaaea75c31db17cd35a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 39,
+			"label": "情节",
+			"name": "二次元",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/3288b62c43fbd19c5e6a031359c5d4b7~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 40,
+			"label": "情节",
+			"name": "海岛",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/5604389f88e3a2c30f219dff2facd624~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 43,
+			"label": "情节",
+			"name": "娱乐圈",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/57f1c1a65284fa9a858a48e509bb7f56~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 44,
+			"label": "情节",
+			"name": "空间",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/885f2a04cd0ddcd6930f60cfaba2b14c~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 61,
+			"label": "情节",
+			"name": "推理",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/2558598f0c33850c2bdee82815b7d282~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 66,
+			"label": "情节",
+			"name": "洪荒",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/6dd2a65d0a4a094e18a337af1bb472fb~tplv-noop.image",
+			"description": ""
+		}
+	],
+    "gender=0":[
+		{
+			"category_id": 1139,
+			"label": "主分类",
+			"name": "古风世情",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": "女频历史、权谋以及原生土著的偏古色古香的古代言情小说"
+		},
+		{
+			"category_id": 8,
+			"label": "主分类",
+			"name": "科幻末世",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/c2c3a125fb9594d8eebd73924bb19136~tplv-noop.image",
+			"description": "末世、丧尸、星际、机甲、未来科技等"
+		},
+		{
+			"category_id": 1015,
+			"label": "主分类",
+			"name": "女频衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1017,
+			"label": "主分类",
+			"name": "民国言情",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 751,
+			"label": "主分类",
+			"name": "悬疑灵异",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/e35636424621dc54b46f2252f546c88e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 539,
+			"label": "主分类",
+			"name": "悬疑脑洞",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/d14cd3808abd23dffdfad0c4a2eef714~tplv-noop.image",
+			"description": "脑洞向的悬疑灵异、破案探险类，以及诡异复苏、惊悚游戏、规则怪谈等带有创意的悬疑新类型"
+		},
+		{
+			"category_id": 504,
+			"label": "主分类",
+			"name": "抗战谍战",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/cb71c98a73db248ac911c64dd1518692~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 749,
+			"label": "主分类",
+			"name": "青春甜宠",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/5f52ac25d2fbe0cd043e03a211464f7f~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 275,
+			"label": "主分类",
+			"name": "双男主",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/4bf3d55ed071574cc1bfa0531046f132~tplv-noop.image",
+			"description": "向往美好，存在于同性之间的唯美爱情"
+		},
+		{
+			"category_id": 253,
+			"label": "主分类",
+			"name": "古言脑洞",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/842a2e2897b02d17bdf37fbe085b6a5e~tplv-noop.image",
+			"description": "快穿、系统、金手指、读心术、几岁半、古代幻想等偏古言脑脑洞文"
+		},
+		{
+			"category_id": 273,
+			"label": "主分类",
+			"name": "历史古代",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/dd4da2d60ae6d9235e4247f9caa05f66~tplv-noop.image",
+			"description": "以种田、朝堂、智谋、争霸、科举等为主要元素，行文严谨，兼顾历史真实与艺术创作规律的无金手指非系统历史文"
+		},
+		{
+			"category_id": 267,
+			"label": "主分类",
+			"name": "现言脑洞",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/672c3f9f051c4477f5d40bd292da543f~tplv-noop.image",
+			"description": "快穿、穿书读心术、无限流、系统、空间等现言脑洞文"
+		},
+		{
+			"category_id": 248,
+			"label": "主分类",
+			"name": "玄幻言情",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/0ba0112174351e847effd5bcfd553a1f~tplv-noop.image",
+			"description": "玄幻、丹药、萌宠、御兽、修真、修仙、仙侠、武侠、金手指等女强爽文"
+		},
+		{
+			"category_id": 246,
+			"label": "主分类",
+			"name": "宫斗宅斗",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/8141a7d0ed53b5130c365664810251d2~tplv-noop.image",
+			"description": "古代背景下包含医术等元素，女主在后宅宫闱中奋斗的小说"
+		},
+		{
+			"category_id": 748,
+			"label": "主分类",
+			"name": "豪门总裁",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/5cd2e417ad81c0fb02630ab2c0eedfc2~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 718,
+			"label": "主分类",
+			"name": "动漫衍生",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/f0d53b9e2b73bd9681497ce83b93fadb~tplv-noop.image",
+			"description": "游戏、动漫、影视、小说等内容的衍生二次创作作品"
+		},
+		{
+			"category_id": 745,
+			"label": "主分类",
+			"name": "星光璀璨",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/a55c87a79b65726a3fb9f0983382a46a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 746,
+			"label": "主分类",
+			"name": "游戏体育",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/16b3ace522211a087ab2baad3a11e094~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 750,
+			"label": "主分类",
+			"name": "职场婚恋",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/2c06f6aa231ade2a7dac2ca803c1a02c~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 704,
+			"label": "主分类",
+			"name": "双女主",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/e80deef77f761cffc4d4738315553bbe~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 79,
+			"label": "主分类",
+			"name": "年代",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/92b320330c35c2f76d8d024d9dcc6c18~tplv-noop.image",
+			"description": "穿越年代、重生年代、空间金手指、物资超市等现言年代文"
+		},
+		{
+			"category_id": 23,
+			"label": "主分类",
+			"name": "种田",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/eeff8c38fa2d829be20718ee2a48c943~tplv-noop.image",
+			"description": "种田、空间、灵泉、逃荒、远古蛮荒、经商、基建、科举、美食、渔业、家长里短、致富等古言文"
+		},
+		{
+			"category_id": 24,
+			"label": "主分类",
+			"name": "快穿",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/9f0a39a824fac46d0ebba014c020ed70~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1012,
+			"label": "主题",
+			"name": "纯爱",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1079,
+			"label": "主题",
+			"name": "衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1058,
+			"label": "主题",
+			"name": "综影视",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 873,
+			"label": "主题",
+			"name": "赛博朋克",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/aa22096d37de265d87270e6bb13c8c82~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1169,
+			"label": "主题",
+			"name": "悬疑恋爱",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 10,
+			"label": "主题",
+			"name": "悬疑",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f53399cf27ce1b0f739377fa010685fd~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 507,
+			"label": "主题",
+			"name": "谍战",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/3abde4421531e165f68bbf76e57a202d~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 485,
+			"label": "主题",
+			"name": "职场商战",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f786d33974db04496f50865554efcb93~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 474,
+			"label": "主题",
+			"name": "日久生情",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/4c9c58725caefe30b09b452827706bb1~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 473,
+			"label": "主题",
+			"name": "豪门世家",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/878282d31667a3e93001e1659806b801~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 465,
+			"label": "主题",
+			"name": "综漫",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/d14be4047dd3895b0dbb2588265053a9~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 464,
+			"label": "主题",
+			"name": "异世穿越",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/0982c5bdf918f8d726a80c1eed531cde~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 460,
+			"label": "主题",
+			"name": "独宠",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f294f11032d2b4c3881744254978b6bc~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 3,
+			"label": "主题",
+			"name": "现代言情",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/d0920282480e07bc06003bbf71fbcf16~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 5,
+			"label": "主题",
+			"name": "古代言情",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/2d2bdcbe303264ec9abbcf5dac81a869~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 16,
+			"label": "主题",
+			"name": "武侠",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b84a720b6e987d0bd9611d5d2c751f48~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 32,
+			"label": "主题",
+			"name": "幻想言情",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/92323b15b47afeeb096ade2ab268a538~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 29,
+			"label": "角色",
+			"name": "总裁",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/29504b9c4f4750b9dc3c9fc9fdb692e3~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 521,
+			"label": "角色",
+			"name": "作精",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/f124087844c32ceaede91df38de84aa5~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 520,
+			"label": "角色",
+			"name": "大佬",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/eefa54d755c4ec28e451688aaf0a147a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 519,
+			"label": "角色",
+			"name": "大小姐",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/bf9670d4ec3e8fa8242f9cf8878d17de~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 509,
+			"label": "角色",
+			"name": "游戏主播",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/79fb542654cd01eb6e8b1e321719234a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 506,
+			"label": "角色",
+			"name": "神探",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/43a07733d90764fc7e18b67224a2a8b4~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 492,
+			"label": "角色",
+			"name": "将军",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/d137193ea1f792153636c04ac7bb9b4a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 491,
+			"label": "角色",
+			"name": "毒医",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/55caac3f7c0d65a892b7eecea1b5baee~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 490,
+			"label": "角色",
+			"name": "厨娘",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/831ba2bea921bcfc13054b29a7201a83~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 488,
+			"label": "角色",
+			"name": "律师",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/999789a8920e8122e17d96c3c62de92a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 487,
+			"label": "角色",
+			"name": "医生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/41b0845485c4ac408052637d31352a86~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 486,
+			"label": "角色",
+			"name": "明星",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/d965288adcd79bde690692e915a36249~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 470,
+			"label": "角色",
+			"name": "替身",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/9d12c7599dba7ad801defa093f0b8144~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 469,
+			"label": "角色",
+			"name": "双面",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b4a4b3a221ca9a315f50c980d58105d3~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 468,
+			"label": "角色",
+			"name": "冰山",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/ebe8270e32820abeff32d372ba2ddd28~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 459,
+			"label": "角色",
+			"name": "古灵精怪",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/7d62f94b8cbdd181f4d0f494c0fe0471~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 455,
+			"label": "角色",
+			"name": "天作之合",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/61902ee1a149a4d64339606b81ede779~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 454,
+			"label": "角色",
+			"name": "可盐可甜",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/cf0e6d1f25e09c1671d93a07e06ff87d~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 392,
+			"label": "角色",
+			"name": "无CP",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/7162bbc0911f87f36441425fbe73840b~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 380,
+			"label": "角色",
+			"name": "病娇",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/08e0218fb42f7d0efc55e0b7b6997669~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 369,
+			"label": "角色",
+			"name": "反派",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/2bb7f7f6db5d739cf02aa2c14db9f099~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 28,
+			"label": "角色",
+			"name": "萌宝",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/060947143e11b4475a1395eac02ece4f~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 30,
+			"label": "角色",
+			"name": "宠妻",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/502ce16b3870f8a8a1660b61983cba52~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 82,
+			"label": "角色",
+			"name": "学霸",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/9b7dba317b1209b7c5152b406ca0a8f7~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 83,
+			"label": "角色",
+			"name": "公主",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca396c4e3a779577af77eee36b04b997~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 84,
+			"label": "角色",
+			"name": "皇后",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/0229de7714a1d2657ba36b3a63b9db4c~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 85,
+			"label": "角色",
+			"name": "王妃",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/08c26adf9f6c92827d8043a279a58711~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 86,
+			"label": "角色",
+			"name": "女强",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/5668b99075402702d9f0dc3e53c35d7b~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 87,
+			"label": "角色",
+			"name": "皇叔",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/82fa69249d9156a835109772f8517713~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 88,
+			"label": "角色",
+			"name": "嫡女",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f46e41383618bbd93dc36761ec54de9a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 89,
+			"label": "角色",
+			"name": "精灵",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/597aee47f7bdb79ce257d7ad79f6ae72~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 90,
+			"label": "角色",
+			"name": "天才",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/54474c197ea57c86db3b7ee725e1cb62~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 92,
+			"label": "角色",
+			"name": "腹黑",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/5e376982fafc00d0feb359c5c0705552~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 93,
+			"label": "角色",
+			"name": "扮猪吃虎",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/c2d0dc6edb5640c07a638ec7efaf1d6a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 94,
+			"label": "角色",
+			"name": "团宠",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/fffcc0c43a466099edcfd11ae09af075~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1060,
+			"label": "情节",
+			"name": "十日衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 373,
+			"label": "情节",
+			"name": "西游衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f5370ac78ed17a53a45315c717627961~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1037,
+			"label": "情节",
+			"name": "公版衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1036,
+			"label": "情节",
+			"name": "红楼衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1035,
+			"label": "情节",
+			"name": "甄嬛衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1034,
+			"label": "情节",
+			"name": "如懿衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1062,
+			"label": "情节",
+			"name": "斩神衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 872,
+			"label": "情节",
+			"name": "追夫",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/aa22096d37de265d87270e6bb13c8c82~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 842,
+			"label": "情节",
+			"name": "追妻",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/aa22096d37de265d87270e6bb13c8c82~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 495,
+			"label": "情节",
+			"name": "四合院",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/7557f39214cac3df2ddc5154b66ef968~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 508,
+			"label": "情节",
+			"name": "电竞",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/dc7fd14cb456018fba92b5b5be022377~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 524,
+			"label": "情节",
+			"name": "双重生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/4948d6a9452eca23b828744439c92a82~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 523,
+			"label": "情节",
+			"name": "前世今生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ef4effc5d4d61f3c4fdb3f3b2528d077~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 11,
+			"label": "情节",
+			"name": "乡村",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/e722520017e645f91467488fcf26f6a2~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 557,
+			"label": "情节",
+			"name": "逃荒",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/e8cef5e6ea3ee37ef5482c0ab929d3c5~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 538,
+			"label": "情节",
+			"name": "同人",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/69ed3e7ec53852d9322e7f9dc33187b8~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 522,
+			"label": "情节",
+			"name": "打脸",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/fede966c7a315279e2c692edc8b8cff3~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 505,
+			"label": "情节",
+			"name": "破案",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/dd4da2d60ae6d9235e4247f9caa05f66~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 494,
+			"label": "情节",
+			"name": "囤物资",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/1ab1b361a0f4f1ecab8808eb66c9bd73~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 493,
+			"label": "情节",
+			"name": "钓鱼",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b5e3477ca1ba3ca033cb61005dd4d85f~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 484,
+			"label": "情节",
+			"name": "HE",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/60d4390ab634a8e8166fcca934ca7dfb~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 483,
+			"label": "情节",
+			"name": "相爱相杀",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/6cd573487b3c03ebe3247dadf4621341~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 482,
+			"label": "情节",
+			"name": "暗恋",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/9ceff26cac3c9b8336e4f971c9d696ce~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 480,
+			"label": "情节",
+			"name": "逃婚",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/0d3843f224b6470ed3efa5284ecf6086~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 479,
+			"label": "情节",
+			"name": "带球跑",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/7e5a71d80fdbbd6c4d67600bf0a5fc32~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 478,
+			"label": "情节",
+			"name": "强强",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/341518493eccc2f4928ea6f3188423ce~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 477,
+			"label": "情节",
+			"name": "一见钟情",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/cd4b3030ed459dbe62e1ceb6bbece009~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 476,
+			"label": "情节",
+			"name": "双向奔赴",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/7502d0517c65ab7292b8e3be52175305~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 475,
+			"label": "情节",
+			"name": "破镜重圆",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/043d0c68afdb9b7d69d1f4cb20aa2a25~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 471,
+			"label": "情节",
+			"name": "契约婚姻",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/93c79961ff7ea44e8b752702eeb9351e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 467,
+			"label": "情节",
+			"name": "隐婚",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/0b8f8d65cf5ac32ce4b7dbb9eadadccc~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 466,
+			"label": "情节",
+			"name": "闪婚",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/bb20d6a875adf689352972dfa2e56ce4~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 463,
+			"label": "情节",
+			"name": "今穿古",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/078b40c28797ad50b2c70295d4db81bc~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 462,
+			"label": "情节",
+			"name": "古穿今",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ee0fd2013ed8dc4640297d9bfd02b43b~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 461,
+			"label": "情节",
+			"name": "群穿",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/2a56cb4b66351f4248c659c36ea26288~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 458,
+			"label": "情节",
+			"name": "护短",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b780209fdfc4b12d45629cea6ff22d2a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 457,
+			"label": "情节",
+			"name": "虐渣",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/25c2d7e6f966cf9e2e9f191d17e9ec2c~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 456,
+			"label": "情节",
+			"name": "情有独钟",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/9cdf49ebde8e55525c14cd773298cc87~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 266,
+			"label": "情节",
+			"name": "马甲",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/de8d6e24f956d6fbaae1a9c8f8252e9b~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 247,
+			"label": "情节",
+			"name": "医术",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/9b208c21fa2985d4ce44a663712dee80~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 388,
+			"label": "情节",
+			"name": "女扮男装",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/01ff0884e081fd9b1186e178c5301686~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 387,
+			"label": "情节",
+			"name": "青梅竹马",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b40871c7ac4c21853ae75db0318df431~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 384,
+			"label": "情节",
+			"name": "无敌",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/8d48cb57d244373e1435aab58419e3b8~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 390,
+			"label": "情节",
+			"name": "民国",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/a6647830f2289121baa0583b03967d3a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 382,
+			"label": "情节",
+			"name": "穿书",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/8ee26a51774019d3e8b8372a23ade3e6~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 127,
+			"label": "情节",
+			"name": "职场",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/1eefd3766a6b5673a58b7402f28b73ef~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 125,
+			"label": "情节",
+			"name": "家庭",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/c3b1630640f25ca3fd1d4d572146b5b1~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 68,
+			"label": "情节",
+			"name": "末世",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f015e5c084020763a46c2c913ad1e0d7~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 69,
+			"label": "情节",
+			"name": "直播",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b237123626bbaad3aacaefcc42bfeda2~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 70,
+			"label": "情节",
+			"name": "无限流",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/74f8f665d4a6bb45137369c3635ceb85~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 72,
+			"label": "情节",
+			"name": "兽世",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/43f0694a9f6bf82f2c4da49cbf785fff~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 76,
+			"label": "情节",
+			"name": "清穿",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/d6b8cb9eeb76ce722e9e2fcb4aa25fc0~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 77,
+			"label": "情节",
+			"name": "星际",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/6653d77d37ca5ebe4bb514aa28a6cd4f~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 78,
+			"label": "情节",
+			"name": "美食",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/4a8e023f74bc43e47afd8eaa3bb90417~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 81,
+			"label": "情节",
+			"name": "盗墓",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/8cb607afc074ad00ea1db5404f5966a0~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 95,
+			"label": "情节",
+			"name": "虐文",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/9520e9f1797e2612083fd7731d12f5c4~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 96,
+			"label": "情节",
+			"name": "甜宠",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/bfc5434637db3a711b7c8f6ba9653cb6~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 100,
+			"label": "情节",
+			"name": "灵异",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/2bd928b8a206ed0e6e1b5901c89b8f9c~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 4,
+			"label": "情节",
+			"name": "校园",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/7ba5e316b25ea14cda22e3ab8bbc6672~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 19,
+			"label": "情节",
+			"name": "系统",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/9f70ab9050653b36ca81d52156866135~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 36,
+			"label": "情节",
+			"name": "重生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/c7df2ed041d21df552eb57b76bf6e83f~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 37,
+			"label": "情节",
+			"name": "穿越",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/a8e7c0022ef67eaaea75c31db17cd35a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 39,
+			"label": "情节",
+			"name": "二次元",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/3288b62c43fbd19c5e6a031359c5d4b7~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 43,
+			"label": "情节",
+			"name": "娱乐圈",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/57f1c1a65284fa9a858a48e509bb7f56~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 44,
+			"label": "情节",
+			"name": "空间",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/885f2a04cd0ddcd6930f60cfaba2b14c~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 61,
+			"label": "情节",
+			"name": "推理",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/2558598f0c33850c2bdee82815b7d282~tplv-noop.image",
+			"description": ""
+		}
+	],
+    "gender=1": [
+		{
+			"category_id": 1141,
+			"label": "主分类",
+			"name": "西方奇幻",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": "偏西方世界背景下，包含魔法斗气奥术等奇幻元素的小说"
+		},
+		{
+			"category_id": 1140,
+			"label": "主分类",
+			"name": "东方仙侠",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": "偏东方世界背景下，包含修仙修道修真等仙侠元素的小说"
+		},
+		{
+			"category_id": 8,
+			"label": "主分类",
+			"name": "科幻末世",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/c2c3a125fb9594d8eebd73924bb19136~tplv-noop.image",
+			"description": "末世、丧尸、星际、机甲、未来科技等"
+		},
+		{
+			"category_id": 1016,
+			"label": "主分类",
+			"name": "男频衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1014,
+			"label": "主分类",
+			"name": "都市高武",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 751,
+			"label": "主分类",
+			"name": "悬疑灵异",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/e35636424621dc54b46f2252f546c88e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 539,
+			"label": "主分类",
+			"name": "悬疑脑洞",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/d14cd3808abd23dffdfad0c4a2eef714~tplv-noop.image",
+			"description": "脑洞向的悬疑灵异、破案探险类，以及诡异复苏、惊悚游戏、规则怪谈等带有创意的悬疑新类型"
+		},
+		{
+			"category_id": 504,
+			"label": "主分类",
+			"name": "抗战谍战",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/cb71c98a73db248ac911c64dd1518692~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 273,
+			"label": "主分类",
+			"name": "历史古代",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/dd4da2d60ae6d9235e4247f9caa05f66~tplv-noop.image",
+			"description": "以种田、朝堂、智谋、争霸、科举等为主要元素，行文严谨，兼顾历史真实与艺术创作规律的无金手指非系统历史文"
+		},
+		{
+			"category_id": 272,
+			"label": "主分类",
+			"name": "历史脑洞",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/d0859cacc8087da6699ea9b18cf47a92~tplv-noop.image",
+			"description": "脑洞向历史，一般有金手指"
+		},
+		{
+			"category_id": 263,
+			"label": "主分类",
+			"name": "都市种田",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b5e3477ca1ba3ca033cb61005dd4d85f~tplv-noop.image",
+			"description": "重生年代文、职场商战文、种田建设等都市文"
+		},
+		{
+			"category_id": 262,
+			"label": "主分类",
+			"name": "都市脑洞",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/814ec8e3d69660b41dd0e9f10599944e~tplv-noop.image",
+			"description": "脑洞向都市"
+		},
+		{
+			"category_id": 261,
+			"label": "主分类",
+			"name": "都市日常",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/842a2e2897b02d17bdf37fbe085b6a5e~tplv-noop.image",
+			"description": "都市情感、现实生活等都市文"
+		},
+		{
+			"category_id": 257,
+			"label": "主分类",
+			"name": "玄幻脑洞",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/6dd2a65d0a4a094e18a337af1bb472fb~tplv-noop.image",
+			"description": "脑洞向玄幻"
+		},
+		{
+			"category_id": 27,
+			"label": "主分类",
+			"name": "战神赘婿",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/5cb6500c8b547438b668f1aa525d5641~tplv-noop.image",
+			"description": "都市向战神，兵王文"
+		},
+		{
+			"category_id": 718,
+			"label": "主分类",
+			"name": "动漫衍生",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/f0d53b9e2b73bd9681497ce83b93fadb~tplv-noop.image",
+			"description": "游戏、动漫、影视、小说等内容的衍生二次创作作品"
+		},
+		{
+			"category_id": 746,
+			"label": "主分类",
+			"name": "游戏体育",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/16b3ace522211a087ab2baad3a11e094~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 258,
+			"label": "主分类",
+			"name": "传统玄幻",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/53b5eda487cdc97437554496c56f481f~tplv-noop.image",
+			"description": "废柴逆袭，强者重生等传统玄幻，高武世界，异世大陆文"
+		},
+		{
+			"category_id": 124,
+			"label": "主分类",
+			"name": "都市修真",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f00d2d1f7bce857c91da83ac34dde0b9~tplv-noop.image",
+			"description": "以修真为力量体系的都市文"
+		},
+		{
+			"category_id": 79,
+			"label": "主分类",
+			"name": "年代",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/92b320330c35c2f76d8d024d9dcc6c18~tplv-noop.image",
+			"description": "穿越年代、重生年代、空间金手指、物资超市等现言年代文"
+		},
+		{
+			"category_id": 1079,
+			"label": "主题",
+			"name": "衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1058,
+			"label": "主题",
+			"name": "综影视",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 873,
+			"label": "主题",
+			"name": "赛博朋克",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/aa22096d37de265d87270e6bb13c8c82~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 10,
+			"label": "主题",
+			"name": "悬疑",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f53399cf27ce1b0f739377fa010685fd~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 705,
+			"label": "主题",
+			"name": "克苏鲁",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/0e2867dc6c5ab3bba8f4163eebabcb77~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 516,
+			"label": "主题",
+			"name": "都市异能",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/787cb1561beefd3fc1641b2555e7efc1~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 515,
+			"label": "主题",
+			"name": "末日求生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/9b857be2a15cb10a66c23979ff6b7474~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 514,
+			"label": "主题",
+			"name": "灵气复苏",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/33b897d1d998ee73142f4124ec4530d3~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 513,
+			"label": "主题",
+			"name": "高武世界",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ef053b037b992dfaead4db488cd8b264~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 512,
+			"label": "主题",
+			"name": "异世大陆",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/66b947d3af56ca908afe1cff82c347e5~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 511,
+			"label": "主题",
+			"name": "东方玄幻",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/de13bc39611d964bbcab1f4f42f9b23f~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 507,
+			"label": "主题",
+			"name": "谍战",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/3abde4421531e165f68bbf76e57a202d~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 503,
+			"label": "主题",
+			"name": "清朝",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/e7d36a5443e4c5b6967f8eaa4a2320fe~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 501,
+			"label": "主题",
+			"name": "宋朝",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/fa6f2f2dbb7118f7e589cc3b480a18c8~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 500,
+			"label": "主题",
+			"name": "断层",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/76b88694e50a36fdacb013d8694b35db~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 497,
+			"label": "主题",
+			"name": "武将",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/f9b988c73fca52567f74244fbce5466d~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 496,
+			"label": "主题",
+			"name": "国运",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/3cfd5f9646d00c6a8dd3bf99bada97d9~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 465,
+			"label": "主题",
+			"name": "综漫",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/d14be4047dd3895b0dbb2588265053a9~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 453,
+			"label": "主题",
+			"name": "开局",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/d75fa24a53afe4cf8c766697d2473d65~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 452,
+			"label": "主题",
+			"name": "架空",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f107a7984c9bb9431f7935c97b77b98f~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 259,
+			"label": "主题",
+			"name": "奇幻仙侠",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/d75fa24a53afe4cf8c766697d2473d65~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1,
+			"label": "主题",
+			"name": "都市",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/0b588d2c83795a2f3c23469a531c5f3c~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 7,
+			"label": "主题",
+			"name": "玄幻",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/5eaacb7ca3774afe3e0bf1d82b67c78c~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 12,
+			"label": "主题",
+			"name": "历史",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/dd4da2d60ae6d9235e4247f9caa05f66~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 15,
+			"label": "主题",
+			"name": "体育",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/39b42c06a8d643a6a880d6935183abca~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 16,
+			"label": "主题",
+			"name": "武侠",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b84a720b6e987d0bd9611d5d2c751f48~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 91,
+			"label": "角色",
+			"name": "多女主",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/3cfae23d092dbf2905ff6a2942f8c946~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 25,
+			"label": "角色",
+			"name": "赘婿",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ead119e333c6b571ef28efb856139aa3~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 520,
+			"label": "角色",
+			"name": "大佬",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/eefa54d755c4ec28e451688aaf0a147a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 519,
+			"label": "角色",
+			"name": "大小姐",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/bf9670d4ec3e8fa8242f9cf8878d17de~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 518,
+			"label": "角色",
+			"name": "特工",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/708e1fb0546df9102dfb07f76748ba0f~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 509,
+			"label": "角色",
+			"name": "游戏主播",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/79fb542654cd01eb6e8b1e321719234a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 506,
+			"label": "角色",
+			"name": "神探",
+			"cover_uri": "http://p6-novel.byteimg.com/novel-static/43a07733d90764fc7e18b67224a2a8b4~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 502,
+			"label": "角色",
+			"name": "宫廷侯爵",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b3d6eb65cf4fae2cbc003a46869668b6~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 498,
+			"label": "角色",
+			"name": "皇帝",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/48c3801dee0ed81f860e5602795b1964~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 487,
+			"label": "角色",
+			"name": "医生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/41b0845485c4ac408052637d31352a86~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 389,
+			"label": "角色",
+			"name": "单女主",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/84d5b3a51365eb220f10965394de59cc~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 385,
+			"label": "角色",
+			"name": "校花",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/d2a7c03d9209de9cec5020483e57cb9e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 391,
+			"label": "角色",
+			"name": "无女主",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/98ab34242d9b2e180167a9cd78574111~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 378,
+			"label": "角色",
+			"name": "女帝",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b6ce5d96dcd888cc44f78e031ce4add2~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 375,
+			"label": "角色",
+			"name": "特种兵",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ab47a5f07a40fdb2d6c8cf4beb991618~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 369,
+			"label": "角色",
+			"name": "反派",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/2bb7f7f6db5d739cf02aa2c14db9f099~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 26,
+			"label": "角色",
+			"name": "神医",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/a87d71126e6f8d1606b37539dd8b37bd~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 42,
+			"label": "角色",
+			"name": "奶爸",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/577d9a209c5bb811c5c8e0fcb8888728~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 82,
+			"label": "角色",
+			"name": "学霸",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/9b7dba317b1209b7c5152b406ca0a8f7~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 90,
+			"label": "角色",
+			"name": "天才",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/54474c197ea57c86db3b7ee725e1cb62~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 92,
+			"label": "角色",
+			"name": "腹黑",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/5e376982fafc00d0feb359c5c0705552~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 93,
+			"label": "角色",
+			"name": "扮猪吃虎",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/c2d0dc6edb5640c07a638ec7efaf1d6a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1060,
+			"label": "情节",
+			"name": "十日衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 373,
+			"label": "情节",
+			"name": "西游衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f5370ac78ed17a53a45315c717627961~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1037,
+			"label": "情节",
+			"name": "公版衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1036,
+			"label": "情节",
+			"name": "红楼衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1035,
+			"label": "情节",
+			"name": "甄嬛衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1034,
+			"label": "情节",
+			"name": "如懿衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 1062,
+			"label": "情节",
+			"name": "斩神衍生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ca9bcbdf81c232e00a89c14af6974c3e~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 495,
+			"label": "情节",
+			"name": "四合院",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/7557f39214cac3df2ddc5154b66ef968~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 508,
+			"label": "情节",
+			"name": "电竞",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/dc7fd14cb456018fba92b5b5be022377~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 524,
+			"label": "情节",
+			"name": "双重生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/4948d6a9452eca23b828744439c92a82~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 11,
+			"label": "情节",
+			"name": "乡村",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/e722520017e645f91467488fcf26f6a2~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 538,
+			"label": "情节",
+			"name": "同人",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/69ed3e7ec53852d9322e7f9dc33187b8~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 522,
+			"label": "情节",
+			"name": "打脸",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/fede966c7a315279e2c692edc8b8cff3~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 505,
+			"label": "情节",
+			"name": "破案",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/dd4da2d60ae6d9235e4247f9caa05f66~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 494,
+			"label": "情节",
+			"name": "囤物资",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/1ab1b361a0f4f1ecab8808eb66c9bd73~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 493,
+			"label": "情节",
+			"name": "钓鱼",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b5e3477ca1ba3ca033cb61005dd4d85f~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 266,
+			"label": "情节",
+			"name": "马甲",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/de8d6e24f956d6fbaae1a9c8f8252e9b~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 372,
+			"label": "情节",
+			"name": "网游",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/d75fa24a53afe4cf8c766697d2473d65~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 367,
+			"label": "情节",
+			"name": "奥特同人",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/c9b12fc6d6e3a13b14551023ea5c90f4~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 379,
+			"label": "情节",
+			"name": "求生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/ba0ffa205c6e37c151fc84fea7bf4deb~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 384,
+			"label": "情节",
+			"name": "无敌",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/8d48cb57d244373e1435aab58419e3b8~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 383,
+			"label": "情节",
+			"name": "九叔",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f97ef3ebba26214eb4f7f9befce3b05f~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 382,
+			"label": "情节",
+			"name": "穿书",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/8ee26a51774019d3e8b8372a23ade3e6~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 381,
+			"label": "情节",
+			"name": "聊天群",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/7deb4139c40f16a9ca3f0507db4db4fb~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 377,
+			"label": "情节",
+			"name": "大秦",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f8d9cad25193ba2ba20a41bd13cb15ad~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 376,
+			"label": "情节",
+			"name": "龙珠",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/a0ed37c44b925252e2a607196f7e98f4~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 374,
+			"label": "情节",
+			"name": "漫威",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/c97890bf7a089374121c2ceecfa765e9~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 371,
+			"label": "情节",
+			"name": "神奇宝贝",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/48c9cbd7da6dca312847437ea68d62f4~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 370,
+			"label": "情节",
+			"name": "海贼",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/047cfdd1ff1862d4701c3f8b9ec4634b~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 368,
+			"label": "情节",
+			"name": "火影",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/e8832f1aee3fc6712fb7c2ae44e582c7~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 127,
+			"label": "情节",
+			"name": "职场",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/1eefd3766a6b5673a58b7402f28b73ef~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 126,
+			"label": "情节",
+			"name": "明朝",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/7bf940e4c0bf813ea2ee9a7d09e7efd4~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 125,
+			"label": "情节",
+			"name": "家庭",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/c3b1630640f25ca3fd1d4d572146b5b1~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 67,
+			"label": "情节",
+			"name": "三国",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/5c7c489a4b99df28df9a7a97949b55a4~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 68,
+			"label": "情节",
+			"name": "末世",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/f015e5c084020763a46c2c913ad1e0d7~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 69,
+			"label": "情节",
+			"name": "直播",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b237123626bbaad3aacaefcc42bfeda2~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 70,
+			"label": "情节",
+			"name": "无限流",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/74f8f665d4a6bb45137369c3635ceb85~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 71,
+			"label": "情节",
+			"name": "诸天万界",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/957b2070db5944463a97dde241dde622~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 73,
+			"label": "情节",
+			"name": "大唐",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/b550bec4bac44b6c1b51fd2b96bcd4cc~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 74,
+			"label": "情节",
+			"name": "宠物",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/5bbe15243d95e474884551e605f47f98~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 75,
+			"label": "情节",
+			"name": "外卖",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/07905b82fa4face157f71ad5d34d18c4~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 77,
+			"label": "情节",
+			"name": "星际",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/6653d77d37ca5ebe4bb514aa28a6cd4f~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 78,
+			"label": "情节",
+			"name": "美食",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/4a8e023f74bc43e47afd8eaa3bb90417~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 80,
+			"label": "情节",
+			"name": "剑道",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/8760e502119786f2955264c2e63afba3~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 81,
+			"label": "情节",
+			"name": "盗墓",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/8cb607afc074ad00ea1db5404f5966a0~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 100,
+			"label": "情节",
+			"name": "灵异",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/2bd928b8a206ed0e6e1b5901c89b8f9c~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 17,
+			"label": "情节",
+			"name": "鉴宝",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/42b63e24d8f7ef04aea1e6f80285b237~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 19,
+			"label": "情节",
+			"name": "系统",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/9f70ab9050653b36ca81d52156866135~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 20,
+			"label": "情节",
+			"name": "神豪",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/75f1ea60a42c16afff15c5e1411e9c90~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 36,
+			"label": "情节",
+			"name": "重生",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/c7df2ed041d21df552eb57b76bf6e83f~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 37,
+			"label": "情节",
+			"name": "穿越",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/a8e7c0022ef67eaaea75c31db17cd35a~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 39,
+			"label": "情节",
+			"name": "二次元",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/3288b62c43fbd19c5e6a031359c5d4b7~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 40,
+			"label": "情节",
+			"name": "海岛",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/5604389f88e3a2c30f219dff2facd624~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 43,
+			"label": "情节",
+			"name": "娱乐圈",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/57f1c1a65284fa9a858a48e509bb7f56~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 44,
+			"label": "情节",
+			"name": "空间",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/885f2a04cd0ddcd6930f60cfaba2b14c~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 61,
+			"label": "情节",
+			"name": "推理",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/2558598f0c33850c2bdee82815b7d282~tplv-noop.image",
+			"description": ""
+		},
+		{
+			"category_id": 66,
+			"label": "情节",
+			"name": "洪荒",
+			"cover_uri": "http://p3-novel.byteimg.com/novel-static/6dd2a65d0a4a094e18a337af1bb472fb~tplv-noop.image",
+			"description": ""
+		}
+	]
+}

@@ -516,3 +516,21 @@
 2025-07-04 17:15:46,683 - FontDecoder - INFO - 解析完成! 发现 362 个可映射字符, 耗时 0.03秒
 2025-07-04 17:15:46,684 - FontDecoder - INFO - 字体映射已保存到缓存: cache/fonts\font_mapping_cache.json
 2025-07-04 17:15:46,684 - FontDecoder - INFO - 从本地字体文件更新映射成功!
+2025-07-07 14:53:33,787 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-07 14:53:33,787 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-07 14:54:27,899 - numexpr.utils - INFO - Note: NumExpr detected 14 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-07 14:54:27,900 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-07 14:54:49,138 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-07 14:54:49,139 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-07 14:54:49,139 - FontDecoder - INFO - 正在从HTML内容中提取字体URL
+2025-07-07 14:54:49,139 - FontDecoder - INFO - 提取到字体URL: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-07 14:54:49,139 - FontDecoder - INFO - 正在下载字体文件: https://lf6-awef.bytetos.com/obj/awesome-font/c/e26e946d8b2ccb7.otf
+2025-07-07 14:54:49,534 - FontDecoder - INFO - 字体下载成功: 72.3 KB, 耗时 0.39秒
+2025-07-07 14:54:49,536 - FontDecoder - INFO - 已加载OCR映射表: cache/mappings\599ab49090584e23_mapping.json，共362项
+2025-07-07 14:54:49,537 - FontDecoder - INFO - 初始化字体解码器，缓存目录: D:\11_WorkSpace\noval-ranks-mcp-server\cache\fonts
+2025-07-07 14:54:49,537 - FontDecoder - INFO - 从缓存加载了字体映射，包含 362 个字符映射
+2025-07-07 14:54:49,537 - FontDecoder - INFO - 从本地加载字体文件: cache\fonts\599ab49090584e23.otf
+2025-07-07 14:54:49,545 - FontDecoder - INFO - 开始解析字体映射
+2025-07-07 14:54:49,611 - FontDecoder - INFO - 解析完成! 发现 362 个可映射字符, 耗时 0.07秒
+2025-07-07 14:54:49,613 - FontDecoder - INFO - 字体映射已保存到缓存: cache/fonts\font_mapping_cache.json
+2025-07-07 14:54:49,613 - FontDecoder - INFO - 从本地字体文件更新映射成功!
