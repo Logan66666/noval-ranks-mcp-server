@@ -20,7 +20,7 @@ import webbrowser
 import subprocess
 import time
 import threading
-from mcp.api.client import get_book_list
+from mcp.api.client import get_book_list,search_category
 from mcp.scraper.scraper import get_dynamic_page
 from mcp.decoder.decoder import FontDecoder
 from tools.font_ocr_mapping_paddle import generate_ocr_mapping, batch_paddle_easyocr_images, render_char_to_image

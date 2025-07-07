@@ -325,6 +325,23 @@ python main.py --review-html
 
 ---
 
+### 关于类别ID（category_id）与性别（gender）的匹配说明
+
+> **注意：** 在填写请求参数时，如果需要限定类别ID（category_id），必须与性别（gender）参数一一对应，否则会导致请求错误。
+
+- gender 可选值：-1（全部）、0（女性）、1（男性）
+- 每个gender值对应一组可选的category_id，具体请参考项目中的 `category_list.json` 文件。
+- 示例：
+  - gender=0 时，只能选择 `category_list.json` 中 `gender=0` 下的category_id。
+  - gender=1 时，只能选择 `gender=1` 下的category_id。
+  - gender=-1 时，只能选择 `gender=-1` 下的category_id。
+
+如需获取所有可选类别及其说明，请查阅 `category_list.json` 文件。
+
+
+---
+
+
 ### Python代码调用示例
 
 ```python

@@ -21,6 +21,7 @@ import json
 import os
 import sys
 from urllib.parse import urlencode
+import re
 
 def get_book_list(page_count=20, page_index=0, gender=-1, category_id=-1, 
                  creation_status=-1, word_count=-1, book_type=-1, sort=0):
@@ -99,6 +100,35 @@ def get_book_list(page_count=20, page_index=0, gender=-1, category_id=-1,
         print(f"未知错误: {e}")
         return None, None
 
+def search_category(gender, keyword, category_file='category_list.json'):
+    """
+    按性别和关键词查找可用类别
+    参数：
+        gender: int，0/1/-1
+        keyword: str，类别名称或描述关键词
+        category_file: str，类别json文件路径
+    返回：
+        list: 匹配到的类别信息（category_id, name, description等）
+    """
+    try:
+        with open(category_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        gender_key = f'gender={gender}'
+        if gender_key not in data:
+            return []
+        candidates = data[gender_key]
+        keyword = keyword.strip().lower()
+        result = []
+        for item in candidates:
+            # 支持名称、描述、标签模糊匹配
+            if (keyword in item.get('name', '').lower() or
+                keyword in item.get('description', '').lower() or
+                keyword in item.get('label', '').lower()):
+                result.append(item)
+        return result
+    except Exception as e:
+        return []
+
 def mcp_handler():
     """
     MCP客户端处理函数
@@ -112,27 +142,35 @@ def mcp_handler():
         # 从标准输入读取参数
         input_data = json.load(sys.stdin)
         
-        # 提取参数，使用默认值
-        params = {
-            'page_count': input_data.get('page_count', 20),
-            'page_index': input_data.get('page_index', 0),
-            'gender': input_data.get('gender', -1),
-            'category_id': input_data.get('category_id', -1),
-            'creation_status': input_data.get('creation_status', -1),
-            'word_count': input_data.get('word_count', -1),
-            'book_type': input_data.get('book_type', -1),
-            'sort': input_data.get('sort', 0)
-        }
-        
-        # 调用API函数
-        data, _ = get_book_list(**params)
-        
-        # 输出结果到标准输出
-        result = {
-            'success': data is not None,
-            'data': data
-        }
-        json.dump(result, sys.stdout, ensure_ascii=False)
+        # 判断是否为search_category tool调用
+        tool = input_data.get('tool', 'get_book_list')
+        if tool == 'search_category':
+            gender = input_data.get('gender', -1)
+            keyword = input_data.get('keyword', '')
+            result = search_category(gender, keyword)
+            json.dump({'success': True, 'result': result}, sys.stdout, ensure_ascii=False)
+        else:
+            # 提取参数，使用默认值
+            params = {
+                'page_count': input_data.get('page_count', 20),
+                'page_index': input_data.get('page_index', 0),
+                'gender': input_data.get('gender', -1),
+                'category_id': input_data.get('category_id', -1),
+                'creation_status': input_data.get('creation_status', -1),
+                'word_count': input_data.get('word_count', -1),
+                'book_type': input_data.get('book_type', -1),
+                'sort': input_data.get('sort', 0)
+            }
+            
+            # 调用API函数
+            data, _ = get_book_list(**params)
+            
+            # 输出结果到标准输出
+            result = {
+                'success': data is not None,
+                'data': data
+            }
+            json.dump(result, sys.stdout, ensure_ascii=False)
         
     except Exception as e:
         # 返回错误信息
